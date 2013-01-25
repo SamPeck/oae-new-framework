@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/modal-override.css" rel="stylesheet" >
+    <link href="css/overrides.css" rel="stylesheet" >
+    <link href="css/modal-create.css" rel="stylesheet" >
+
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Button to trigger modal -->
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+     
+    <!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+            <h3 id="myModalLabel">Create</h3>
+        </div>
+        <div class="modal-body">
+            <!-- This is the list of things you can create -->
+            <ul id="oae-modal-create" class="inline">
+                <li class="oae-modal-create-document"><a href="#" title="document">Document</a></li>
+                <li class="oae-modal-create-bookmark"><a href="#" title="bookmark">Bookmark</a></li>
+                <li class="oae-modal-create-photo"><a href="#" title="photo">Photo</a></li>
+                <li class="oae-modal-create-video"><a href="#" title="video">Video</a></li>
+                <li class="oae-modal-create-audio"><a href="#" title="audio">Audio</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

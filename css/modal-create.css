@@ -1,0 +1,47 @@
+
+/** This is to make modals 100%
+
+#myModal {
+	width: 90%;
+	margin-left: -45%;
+}
+
+**/
+
+#myModal {
+	width: 600px;
+}
+
+#oae-modal-create li {
+	background-color: #fff;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #888888;
+    float: left;
+    height: 30px;
+	margin: 5px;
+	padding-top: 70px;
+	text-align: center;
+    width: 95px;
+}
+
+/** These are the styles that list each type of entity you can create **/
+
+#oae-modal-create .oae-modal-create-document {
+	background: url("../images/icon-document.png") no-repeat center 20px transparent;
+}
+
+#oae-modal-create .oae-modal-create-bookmark {
+	background: url("../images/icon-bookmark.png") no-repeat center 20px transparent;
+}
+
+#oae-modal-create .oae-modal-create-photo {
+	background: url("../images/icon-photo.png") no-repeat center 20px transparent;
+}
+
+#oae-modal-create .oae-modal-create-video {
+	background: url("../images/icon-video.png") no-repeat center 20px transparent;
+}
+
+#oae-modal-create .oae-modal-create-audio {
+	background: url("../images/icon-audio.png") no-repeat center 	20px transparent;
+}

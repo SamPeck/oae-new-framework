@@ -1,0 +1,18 @@
+
+html {
+    font-size: 6.25%;
+    height: 100%;
+    min-height: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #333;
+    font-family: 'Open Sans', sans-serif; arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-size: 16rem;
+    line-height: 1.5;
+}
