@@ -1,0 +1,23 @@
+
+
+/*
+This container <div id="oae-container">
+allows for the clips to sit inside the bootstrap rows and rows-fluid
+so we don't have to override all the bootstrap grids and rows structure
+*/
+
+.container-fluid {
+	margin: 0 auto;
+    width: 96%;
+    min-width: 1024px;
+	margin-top: 18px;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+    border-bottom: none;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    box-shadow:  0 2px 4px #dbdbdb;
+    -moz-box-shadow:  0 2px 4px #dbdbdb;
+    -webkit-box-shadow:  0 2px 4px #dbdbdb;
+}

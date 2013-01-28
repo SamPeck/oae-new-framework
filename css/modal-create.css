@@ -9,7 +9,7 @@
 **/
 
 #myModal {
-	width: 600px;
+	width: 605px;
 }
 
 #oae-modal-create li {
@@ -24,7 +24,7 @@
     width: 95px;
 }
 
-/** These are the styles that list each type of entity you can create **/
+/** These are the icons that list each type of entity you can create **/
 
 #oae-modal-create .oae-modal-create-document {
 	background: url("../images/icon-document.png") no-repeat center 20px transparent;

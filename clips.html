@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clips</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+	<link href="css/overrides.css" rel="stylesheet" >
+    <link href="css/clips.css" rel="stylesheet" >
+
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>  
+	$(function ()  
+	{ $("#example").popover();    
+	  $("#example_bottom").popover({placement:'bottom'});  
+	  $('#example_bottom').popover({ html : true });
+	});  
+	</script>  
+
+    <!-- My clips -->
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12">
+			    <div class="row-fluid">
+				    <div class="span4">
+					    <div class="oae-title-clip" id="oae-user-box">
+			                <div class="oae-title-clip-right"></div>
+			                <div class="oae-title-clip-left"></div>
+			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                <a href="#" title="More related to me (My profile, messages, account)">
+			                	<h1>John Librarian</h1>
+			                </a>
+			            </div>
+					</div>
+				    <div class="span8">
+				    	<a title="Create anything (Document, To-do, Collection, Group)" class="create" href="#">
+			                <div class="oae-action-clip-primary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="create">Create<span id="clip-down-arrow"></span></div>
+			                </div>
+			            </a>
+			            <a title="Upload video, files, documents and links" class="upload" href="#">
+			                <div class="oae-action-clip-secondary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="upload">Upload</div>
+			                </div>
+			            </a>
+			            My clips <br /><br /><br /><br />
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+	<!-- My clips / my dropdown open -->
+	<div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12">
+			    <div class="row-fluid">
+				    <div class="span4">
+					    <div class="oae-title-clip" id="oae-user-box">
+			                <div class="oae-title-clip-right"></div>
+			                <div class="oae-title-clip-left"></div>
+			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                <!-- Popover with HTML -->
+			                <a href="#" id="example_bottom" rel="popover-with-html" title="More related to me (My profile, messages, account)">
+			                	<h1>John Librarian</h1>
+			                </a>
+			            </div>
+					</div>
+				    <div class="span8">
+				    	<a title="Create anything (Document, To-do, Collection, Group)" class="create" href="#">
+			                <div class="oae-action-clip-primary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="create">Create<span id="clip-down-arrow"></span></div>
+			                </div>
+			            </a>
+			            <a title="Upload video, files, documents and links" class="upload" href="#">
+			                <div class="oae-action-clip-secondary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="upload">Upload</div>
+			                </div>
+			            </a>
+			            My clips / click "John Librarian" to open my clip popdown <br /><br /><br /><br />
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+	<!-- My clips / create dropdown open -->
+	<div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12">
+			    <div class="row-fluid">
+				    <div class="span4">
+					    <div class="oae-title-clip" id="oae-user-box">
+			                <div class="oae-title-clip-right"></div>
+			                <div class="oae-title-clip-left"></div>
+			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                <a href="#" title="More related to me (My profile, messages, account)">
+			                	<h1>John Librarian</h1>
+			                </a>
+			            </div>
+					</div>
+				    <div class="span8">
+				    	<a title="Create anything (Document, To-do, Collection, Group)" class="create" href="#">
+			                <div class="oae-action-clip-primary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="create">Create<span id="clip-down-arrow"></span></div>
+			                </div>
+			            </a>
+			            <a title="Upload video, files, documents and links" class="upload" href="#">
+			                <div class="oae-action-clip-secondary">
+			                    <div class="action-clip-right"></div>
+			                    <div class="action-clip-left"></div>
+			                    <div class="action-icon" id="upload">Upload</div>
+			                </div>
+			            </a>
+			            My clips / create dropdown open <br /><br /><br /><br />
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+</body>
+</html>
