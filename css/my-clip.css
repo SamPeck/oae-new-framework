@@ -3,27 +3,25 @@
 
 /** This is the arrow that provides me with more profile management options **/
 
-.oae-my-clip a h1 {
-    background: url("../images/header-clip-down-arrow.png") no-repeat center right transparent;
-    margin: 6px 10px 0 0;
-    padding-right: 25px;
+.oae-my-clip h1 {
+  margin: 15px 0 15px 0;
 }
 
-.oae-my-clip a h1:hover {
-    background: url("../images/header-clip-down-arrow-hover.png") no-repeat center right transparent;
+.oae-my-clip small {
+  display: block;
+  color: #999;
+  font-size: 12rem;
+  margin-left: 10px;
+  padding-top: 5px;
 }
 
-.oae-my-clip a h1:active {
-    background: url("../images/header-clip-down-arrow-active.png") no-repeat center right transparent;
+.oae-my-clip#double-line h1 {
+    margin-top: 7px;
 }
 
-/** Option 1: Dropdown **/
-/** Dropdown that list the things that are directly related to your profile in OAE **/
-
-.oae-my-clip #my-dropdown {
-  top: 70px;
-  left: 65px;
-  width: auto;
+.oae-my-clip#double-line h1 a {
+    margin-left: 10px;
+    padding-bottom: 3px;
 }
 
 /** Option 2: Popover **/
@@ -34,67 +32,161 @@
   left: 65px;
   width: auto;
 }
-.oae-my-clip #my-dropdown .arrow,
+
 #oae-popover-my-clip .arrow {
   left: 50%;
 }
-.oae-my-clip #my-dropdown ul,
+
 #oae-popover-my-clip ul {
   margin: 15px 0 0 0;
 }
-.oae-my-clip #my-dropdown li,
-#oae-popover-my-clip li {
+
+/*#oae-popover-my-clip li {
   
 }
-.oae-my-clip #my-dropdown li a:hover,
-#oae-popover-my-clip li a:hover {
-  /*background: #fff;
-  border-radius: 3px 3px 3px 3px;
-  box-shadow: 0 0 3px #888888;*/
 
-}
-.oae-my-clip #my-dropdown .edit-my-details,
+#oae-popover-my-clip li a:hover {
+  background: #fff;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 0 3px #888888;
+}*/
+
 #oae-popover-my-clip .edit-my-details {
   background: url("../images/icon-user-edit.png") no-repeat center 5px transparent;
-  background-size: 50%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .edit-my-details:hover,
+
 #oae-popover-my-clip .edit-my-details:hover {
   background: url("../images/icon-user-edit-hover.png") no-repeat center 5px transparent;
-  background-size: 50%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .edit-my-details:active, 
+
 #oae-popover-my-clip .edit-my-details:active {
   background: url("../images/icon-user-edit-active.png") no-repeat center 5px transparent;
-  background-size: 50%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .messages,
+
 #oae-popover-my-clip .messages {
   background: url("../images/icon-messages.png") no-repeat center 5px transparent;
-  background-size: 48%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .messages:hover,
+
 #oae-popover-my-clip .messages:hover {
   background: url("../images/icon-messages-hover.png") no-repeat center 5px transparent;
-  background-size: 48%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .messages:active,
+
 #oae-popover-my-clip .messages:active {
   background: url("../images/icon-messages-active.png") no-repeat center 5px transparent;
-  background-size: 48%;
+  background-size: 30px 30px;;
 }
-.oae-my-clip #my-dropdown .account-settings,
+
 #oae-popover-my-clip .account-settings {
   background: url("../images/icon-user-settings.png") no-repeat center 5px transparent;
-  background-size: 35%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .account-settings:hover,
+
 #oae-popover-my-clip .account-settings:hover {
   background: url("../images/icon-user-settings-hover.png") no-repeat center 5px transparent;
-  background-size: 35%;
+  background-size: 30px 30px;
 }
-.oae-my-clip #my-dropdown .account-settings:active,
+
 #oae-popover-my-clip .account-settings:active {
   background: url("../images/icon-user-settings-active.png") no-repeat center 5px transparent;
-  background-size: 35%;
+  background-size: 30px 30px;
 }
+
+/** Option 2: Popover **/
+/** Popover that list the things that are directly related to your profile in OAE **/
+
+
+.oae-my-clip-open ul {
+    display: block;
+    clear: left;  
+    list-style: none;
+    font-size: 11rem;
+    color: #333;
+    font-weight: 600;
+    padding: 37px 5px 15px 15px;
+    margin: 0 0 20px 0;
+}
+
+.oae-my-clip-open li {
+    float: left;
+    margin-right: 10px;
+} 
+
+.oae-my-clip-open li a {
+    color: #fff;
+    padding: 40px 10px 5px 10px;
+}  
+
+.oae-my-clip-open li a:hover {
+    color: #999;
+    text-decoration: none;
+} 
+
+.oae-my-clip-open li a:active {
+    color: #666;
+} 
+
+/*.oae-my-clip-open ul {
+  margin: 15px 0 0 0;
+}*/
+
+/*.oae-my-clip-open li {
+  
+}
+*/
+.oae-my-clip-open li a:hover {
+  border-radius: 6px;
+}
+
+.oae-my-clip-open .edit-my-details {
+  background: url("../images/icon-user-edit-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .edit-my-details:hover {
+  background: url("../images/icon-user-edit-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .edit-my-details:active {
+  background: url("../images/icon-user-edit-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .messages {
+  background: url("../images/icon-messages-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .messages:hover {
+  background: url("../images/icon-messages-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .messages:active {
+  background: url("../images/icon-messages-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .account-settings {
+  background: url("../images/icon-user-settings-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .account-settings:hover {
+  background: url("../images/icon-user-settings-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-my-clip-open .account-settings:active {
+  background: url("../images/icon-user-settings-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}
+
+
+
+

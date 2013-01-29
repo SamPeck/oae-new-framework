@@ -10,7 +10,6 @@
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
-    height: 58px;
     margin: -8px 0 0 20px;
     min-width: 100px;
     position: absolute;
@@ -32,38 +31,52 @@
     float: left;
     font-size: 16rem;
     font-weight: 600;
+    padding-top: 5px;
     text-shadow: 0 1px 0 #000000;
 }
 
-.oae-title-clip a h1 {
+.oae-title-clip h1 a {
     color: #dbdbdb;
     float: left;
     font-size: 16px;
     font-weight: 600;
-    height: 33px;
     line-height: 18px;
-    padding: 12px 25px 0 10px;
-    text-shadow: 0 1px 0 #000000;
+    margin: 0 10px;
+    text-shadow: 0 1px rgba(0, 0, 0, 1);
     text-decoration: none;
 }
 
-.oae-title-clip a h1:hover {
+.oae-title-clip h1 a:hover {
     color: #fff;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.oae-title-clip a h1:active {
-    color: #666;
+.oae-title-clip h1 a:active {
+    color: #000;
 }
 
-.oae-title-clip a h1:visited {
-    color: #fff;
+.oae-title-clip .caret {
+    margin: 7px 5px 0 10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 7px solid #dbdbdb;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    text-shadow: 0 1px 0 #000;
+    content: "";
+}
+
+.oae-title-clip .caret:hover {
+    border-top: 7px solid #fff;
+}
+
+.oae-title-clip .caret:active {
+    border-top: 7px solid #000;
 }
 
 .oae-title-clip img {
-    float: left;
-    height: 30px;
-    margin: 14px 3px 0 14px;
-    width: 30px;
     background: rgb(226,225,218); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,225,218,0.5)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
@@ -75,6 +88,10 @@
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    float: left;
+    height: 30px;
+    margin: 15px 3px 15px 15px;
+    width: 30px;
 }
 
 .oae-title-clip img:hover {
@@ -86,7 +103,7 @@
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    margin: 11px 0 0 11px;
+    margin: 12px 0 12px 12px;
 }
 
 /** Popovers when opening all clips that have a down arrow **/

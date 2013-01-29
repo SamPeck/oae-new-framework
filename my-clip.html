@@ -26,23 +26,7 @@
 					    <div class="oae-title-clip oae-my-clip">
 					    	<div class="oae-title-clip-right"></div>
 			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			              	    <!-- This is the list of things that are directly related to your profile in OAE -->
-			              	    <!-- Option 1: Dropdown -->
-			              	    <div class="dropdown pull-left">
-								    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown">
-									    <h1>John Librarian</h1>
-								    </a>
-								    <div id="oae-popover-my-clip" class="oae-popover bottom" style="display: none">
-										<div class="arrow"></div>
-										<div class="oae-popover-content">
-											<ul>
-										    	<li><a href="#" title="Edit profile" class="edit-my-details">Edit profile</a></li>
-										    	<li><a href="#" title="Messages" class="messages">My messages</a></li>
-										    	<li><a href="#" title="Account settings" class="account-settings">Account settings</a></li>
-										    </ul>
-										</div>
-									</div>
-							    </div>
+			            	<h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
 			            </div>
 					</div>
 				    <div class="span8">
@@ -59,12 +43,10 @@
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-title-clip oae-my-clip">
+					    <div class="oae-title-clip oae-my-clip" id="oae-my-clip-expand">
 					    	<div class="oae-title-clip-right"></div>
 			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			                <a href="#" title="More related to me (My profile, messages, account)">
-			                	<h1>John Librarian</h1>
-			                </a>
+			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
 			            </div>
 					</div>
 				    <div class="span8">
@@ -88,18 +70,42 @@
 		</div>
 	</div>
 
+	<!-- My clip in OAE / my dropdown -->
+	<div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12">
+			    <div class="row-fluid">
+				    <div class="span4">
+					    <div class="oae-title-clip oae-my-clip-open">
+					    	<div class="oae-title-clip-right"></div>
+			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
+			            	<!-- Option 3: Embedded -->
+			            	<ul>
+						    	<li><a href="#" title="Edit profile" class="edit-my-details">Profile</a></li>
+						    	<li><a href="#" title="Messages" class="messages">Messages</a></li>
+						    	<li><a href="#" title="Account settings" class="account-settings">Account</a></li>
+						    </ul>
+			            </div>
+					</div>
+				    <div class="span8">
+			            <div style="color: #25a9df; height: 300px;">My clip in OAE (Option 2: Popover)</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
 	<!-- My clip in OAE with a really long name -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-title-clip oae-my-clip">
+					    <div class="oae-title-clip oae-my-clip" id="double-line">
 					    	<div class="oae-title-clip-right"></div>
 			                <a href="#" title="Hubert's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="Hubert Blaine Wolfeschlegelsteinhausenbergerdorff"/></a>
-			                <a href="#" title="More related to me (My profile, messages, account)">
-			                	<h1>Hubert Blaine Wolfeschlegelsteinhausenbergerdorff</h1>
-			                </a>
+			                <h1><a href="#" title="More related to me (My profile, messages, account)">Hubert Blaine Wolfeschlegelsteinhausenbergerdorff<span class="caret"></span></a><small>Professor of Typography, Letterpress, Bookbinding and Linocut</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
@@ -119,9 +125,7 @@
 					    <div class="oae-title-clip oae-my-clip">
 					    	<div class="oae-title-clip-right"></div>
 			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/icon-user.png" alt="John Librarian"/></a>
-			                <a href="#" title="More related to me (My profile, messages, account)">
-			                	<h1>John Librarian</h1>
-			                </a>
+			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
 			            </div>
 					</div>
 				    <div class="span8">
