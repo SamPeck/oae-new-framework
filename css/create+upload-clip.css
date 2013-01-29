@@ -1,6 +1,174 @@
+
+/** Option 1: Dropdown **/
+/** Dropdown that list the things that are directly related to your profile in OAE **/
+
+.dropdown #my-dropdown {
+    margin: -20px 0 0 0px;
+    padding: 10px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.dropdown #my-dropdown ul {
+
+}
+
+.dropdown #my-dropdown li {
+    font-size: 12rem;
+}
+
+.dropdown #my-dropdown li > a{
+    color: #333;
+    padding: 5px 0 0 20px;
+
+}
+
+.dropdown #my-dropdown li > a:hover{
+    background: none;
+    color: #666;
+}
+
+.dropdown #my-dropdown li > a:active{
+    
+}
+
+.dropdown #my-dropdown li > a:visited{
+    
+}
+
+.dropdown #my-dropdown li a.edit-my-details {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+.dropdown #my-dropdown li a.messages {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+.dropdown #my-dropdown li a.account-settings {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+/** Option 2: Popover **/
+/** Popover that list the things that are directly related to your profile in OAE **/
+
+.oae-popover {
+  position: absolute;
+  top: 370px;
+  left: 122px;
+  z-index: 1010;
+  width: 236px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+
+.oae-popover.top {
+  margin-top: -10px;
+}
+.oae-popover.right {
+  margin-left: 10px;
+}
+.oae-popover.bottom {
+  margin-top: 10px;
+}
+.oae-popover.left {
+  margin-left: -10px;
+}
+.oae-popover .arrow,
+.oae-popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.oae-popover .arrow {
+  border-width: 11px;
+}
+.oae-popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+.oae-popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+.oae-popover.top .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #ffffff;
+}
+.oae-popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+.oae-popover.right .arrow:after {
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #ffffff;
+}
+.oae-popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+.oae-popover.bottom .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}
+.oae-popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+.oae-popover.left .arrow:after {
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  bottom: -10px;
+}
+
 /************************
  * LEFT (PRIMARY) CLIPS *
  ************************/
+
 
 .oae-title-clip {
     background: url("../images/clip-title-panel.png") repeat-x center center transparent;
@@ -46,22 +214,22 @@
 
 /** USER / GROUP CLIP **/
 
-#oae-user-box.oae-title-clip,
-#group-box.oae-title-clip {
+.oae-title-clip#oae-user-box,
+.oae-title-clip#group-box {
     float: left;
     min-width: 100px;
 }
 
-#oae-user-box.oae-title-clip img,
-#group-box.oae-title-clip img {
+.oae-title-clip#oae-user-box img,
+.oae-title-clip#group-box img {
     float: left;
     height: 30px;
     margin: 12px 3px 3px 6px;
     width: 30px;
 }
 
-#oae-user-box.oae-title-clip img:hover,
-#group-box.oae-title-clip img:hover {
+.oae-title-clip#oae-user-box img:hover,
+.oae-title-clip#group-box img:hover {
     margin: 9px 0 0 3px;
     cursor: pointer;
     border: 3px solid #25a9df;

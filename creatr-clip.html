@@ -6,10 +6,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/grid-overrides.css" rel="stylesheet" >
-    <link href="css/dropdown-overrides.css" rel="stylesheet" >
-    <link href="css/popover-overrides.css" rel="stylesheet" >
     <link href="css/overrides.css" rel="stylesheet" >
-    <link href="css/my-clips.css" rel="stylesheet" >
+    <link href="css/my-clip.css" rel="stylesheet" >
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -18,7 +16,7 @@
     <!-- These are places to activiate tools and actions you can perform in OAE -->
     <!-- Note the use of Bootstrap grid system and popover and dropdown overrides are in place -->
 
-    <!-- My clips in OAE -->
+    <!-- My clip in OAE -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
@@ -57,14 +55,14 @@
 			                    <div class="action-icon" id="upload">Upload</div>
 			                </div>
 			            </a>
-			            <div style="height: 300px;">My clips</div>
+			            <div style="height: 300px;">My clip</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clips in OAE / my dropdown -->
+	<!-- My clip in OAE / my dropdown -->
 	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
@@ -94,67 +92,29 @@
 			                    <div class="action-icon" id="upload">Upload</div>
 			                </div>
 			            </a>
-			            <div style="height: 300px;">My clips / click "John Librarian" to open my clip popdown</div>
+			            <div style="height: 300px;">My clip / click "John Librarian" to open my clip popdown</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clips in OAE / my popover open -->
+	<!-- My clip in OAE / my popover open -->
 	<!-- Option 2: Popover -->
-	<div id="oae-popover" class="popover bottom">
+	<div id="oae-popover-my-clip" class="oae-popover bottom">
 		<div class="arrow"></div>
 		<h3 class="popover-title">Popover bottom</h3>
 		<div class="popover-content">
 			<p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 		</div>
-	</div>
-
+	</div>e
 	<!-- <div id="oae-my-clip-open">
 		<ul class="dropdown-menu" id="my-dropdown">
 	    	<li class="edit-my-details"><a href="#" title="Edit profile">Edit profile</a></li>
 	    	<li><a href="#" title="Edit profile">My messages</a></li>
 	    	<li><a href="#" title="Edit profile">Account settings</a></li>
 	    </ul>
-	</div> -->
-
-	<!-- My clips in OAE / create dropdown open -->
-	<div class="container-fluid">
-	    <div class="row-fluid">
-		    <div class="span12">
-			    <div class="row-fluid">
-				    <div class="span4">
-					    <div class="oae-title-clip" id="oae-user-box">
-			                <div class="oae-title-clip-right"></div>
-			                <div class="oae-title-clip-left"></div>
-			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			                <a href="#" title="More related to me (My profile, messages, account)">
-			                	<h1>John Librarian</h1>
-			                </a>
-			            </div>
-					</div>
-				    <div class="span8">
-				    	<a title="Create anything (Document, To-do, Collection, Group)" class="create" href="#">
-			                <div class="oae-action-clip-primary">
-			                    <div class="action-clip-right"></div>
-			                    <div class="action-clip-left"></div>
-			                    <div class="action-icon" id="create">Create<span id="clip-down-arrow"></span></div>
-			                </div>
-			            </a>
-			            <a title="Upload video, files, documents and links" class="upload" href="#">
-			                <div class="oae-action-clip-secondary">
-			                    <div class="action-clip-right"></div>
-			                    <div class="action-clip-left"></div>
-			                    <div class="action-icon" id="upload">Upload</div>
-			                </div>
-			            </a>
-			            <div style="height: 300px;">My clips / create dropdown open</div>
-				    </div>
-			    </div>
-		    </div>
-	    </div>
-	</div>
+	</div> --e
 
 </body>
 </html>

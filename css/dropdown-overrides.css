@@ -1,0 +1,53 @@
+
+.dropdown #my-dropdown {
+	margin: -20px 0 0 0px;
+	padding: 10px;
+	width: auto;
+	border-radius: 4px;
+}
+
+.dropdown #my-dropdown ul {
+
+}
+
+.dropdown #my-dropdown li {
+    font-size: 12rem;
+}
+
+.dropdown #my-dropdown li > a{
+	color: #333;
+	padding: 5px 0 0 20px;
+
+}
+
+.dropdown #my-dropdown li > a:hover{
+	background: none;
+	color: #666;
+}
+
+.dropdown #my-dropdown li > a:active{
+	
+}
+
+.dropdown #my-dropdown li > a:visited{
+	
+}
+
+.dropdown #my-dropdown li a.edit-my-details {
+	background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+	background-size: 20%;
+	padding-left: 40px;
+}
+
+.dropdown #my-dropdown li a.messages {
+	background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+	background-size: 20%;
+	padding-left: 40px;
+}
+
+.dropdown #my-dropdown li a.account-settings {
+	background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+	background-size: 20%;
+	padding-left: 40px;
+}
+

@@ -8,8 +8,8 @@
 
 **/
 
-#myModal {
-	width: 605px;
+.oae-modal-create {
+	width: 620px;
 }
 
 #oae-modal-create li {
@@ -43,5 +43,5 @@
 }
 
 #oae-modal-create .oae-modal-create-audio {
-	background: url("../images/icon-audio.png") no-repeat center 	20px transparent;
+	background: url("../images/icon-audio.png") no-repeat center 20px transparent;
 }

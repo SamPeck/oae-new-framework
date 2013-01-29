@@ -1,0 +1,211 @@
+
+
+/** This is the clip that houses the user's name and profile picture **/
+
+#oae-my-clip a h1 {
+    background: url("../images/header-clip-down-arrow.png") no-repeat center right transparent;
+    margin: 6px 10px 0 0;
+    padding-right: 25px;
+}
+
+#oae-my-clip a h1:hover {
+    background: url("../images/header-clip-down-arrow-hover.png") no-repeat center right transparent;
+}
+
+#oae-my-clip a h1:active {
+    background: url("../images/header-clip-down-arrow-active.png") no-repeat center right transparent;
+}
+
+/** Option 1: Dropdown **/
+/** Dropdown that list the things that are directly related to your profile in OAE **/
+
+#oae-my-clip .dropdown {
+    width: auto;
+    border-radius: 4px;
+}
+
+#oae-my-clip .dropdown ul {
+    margin: 20px 0 0 0px;
+    padding: 10px;
+}
+
+#oae-my-clip .dropdown li {
+    font-size: 12rem;
+}
+
+#oae-my-clip .dropdown li > a{
+    color: #333;
+    padding: 5px 0 0 20px;
+
+}
+
+#oae-my-clip .dropdown li > a:hover{
+    background: none;
+    color: #666;
+}
+
+#oae-my-clip .dropdown li > a:active{
+    
+}
+
+#oae-my-clip .dropdown li > a:visited{
+    
+}
+
+#oae-my-clip .dropdown li a.edit-my-details {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+#oae-my-clip .dropdown li a.messages {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+#oae-my-clip .dropdown li a.account-settings {
+    background: url("../images/icon-edit-my-details-alt.png") no-repeat left center transparent;
+    background-size: 20%;
+    padding-left: 40px;
+}
+
+/** Option 2: Popover **/
+/** Popover that list the things that are directly related to your profile in OAE **/
+
+.oae-popover {
+  position: absolute;
+  top: 370px;
+  left: 122px;
+  z-index: 1010;
+  width: 236px;
+  padding: 1px;
+  text-align: left;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+
+.oae-popover.top {
+  margin-top: -10px;
+}
+
+.oae-popover.right {
+  margin-left: 10px;
+}
+
+.oae-popover.bottom {
+  margin-top: 10px;
+}
+
+.oae-popover.left {
+  margin-left: -10px;
+}
+
+.oae-popover .arrow,
+.oae-popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.oae-popover.-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.oae-popover.-content {
+  padding: 9px 14px;
+}
+
+.oae-popover .arrow {
+  border-width: 11px;
+}
+
+.oae-popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+
+.oae-popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+
+.oae-popover.top .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #ffffff;
+}
+
+.oae-popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+.oae-popover.right .arrow:after {
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #ffffff;
+}
+.oae-popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+
+.oae-popover.bottom .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}
+
+.oae-popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+
+.oae-popover.left .arrow:after {
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  bottom: -10px;
+}
+
