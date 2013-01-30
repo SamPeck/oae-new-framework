@@ -99,16 +99,19 @@
 /** Option 2: Popover **/
 /** Popover that list the things that are directly related to your profile in OAE **/
 
+.oae-my-clip-open h1 {
+  padding-top: 10px;
+}
 
 .oae-my-clip-open ul {
-    display: block;
     clear: left;  
     list-style: none;
     font-size: 11rem;
-    color: #333;
+    color: #dbdbdb;
     font-weight: 600;
     padding: 37px 5px 15px 15px;
     margin: 0 0 20px 0;
+    min-width: 220px;
 }
 
 .oae-my-clip-open li {
@@ -117,7 +120,7 @@
 } 
 
 .oae-my-clip-open li a {
-    color: #fff;
+    color: #dbdbdb;
     padding: 40px 10px 5px 10px;
 }  
 
@@ -130,14 +133,6 @@
     color: #666;
 } 
 
-/*.oae-my-clip-open ul {
-  margin: 15px 0 0 0;
-}*/
-
-/*.oae-my-clip-open li {
-  
-}
-*/
 .oae-my-clip-open li a:hover {
   border-radius: 6px;
 }

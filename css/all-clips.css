@@ -95,7 +95,7 @@
 }
 
 .oae-title-clip img:hover {
-    border: 3px solid #0074a7;
+    border: 3px solid #0072b4;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -104,6 +104,10 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     margin: 12px 0 12px 12px;
+}
+
+.oae-title-clip img:active {
+    border-color: #000;
 }
 
 /** Popovers when opening all clips that have a down arrow **/
