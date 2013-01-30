@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create and Upload clips</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+    <link href="css/overrides.css" rel="stylesheet" >
+    <link href="css/all-clips.css" rel="stylesheet" >
+    <link href="css/create-and-upload-clips.css" rel="stylesheet" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- These are the main actions you can perform if you manage groups or your own profile -->
+    <!-- Note the use of Bootstrap grid system (see grid-overrides.css) -->
+
+    <!-- Create and upload clips (see create-and-upload-clips.css and my-clip.css) -->
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12">
+			    <div class="row-fluid">
+				    <div class="span4">
+				    	<div style="color: #25a9df; height: 300px;">Create and Upload clips</div>
+					</div>
+				    <div class="span8">
+			            <!-- A trigger that opens up an upload overlay for uploading files to the system -->
+			            <div class="oae-clip oae-action-clip oae-upload-clip">
+					    	<div class="oae-clip-left"></div>
+			            	<h1><a href="#" title="Upload video, files, documents and links">Upload</a></h1>
+			            </div>
+			            <!-- The trigger that opens up a selection of entities you can create -->
+			            <div class="oae-clip oae-action-clip oae-create-clip-open">
+					    	<div class="oae-clip-left"></div>
+			            	<h1><a href="#" title="Create anything (Document, To-do, Collection, Group)">Create<span class="caret"></span></a></h1>
+			            	<ul>
+						    	<li><a href="#" title="Edit profile" class="edit-my-details">Profile</a></li>
+						    	<li><a href="#" title="Messages" class="messages">Messages</a></li>
+						    	<li><a href="#" title="Account settings" class="account-settings">Account</a></li>
+						    </ul>
+			            </div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+
+</body>
+</html>

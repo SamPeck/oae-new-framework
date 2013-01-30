@@ -1,41 +1,27 @@
 
 /* Primary title of any entity (like user's, group's picture or content preview thumb and name) */
 
-.oae-title-clip {
+.oae-clip {
     background: -moz-linear-gradient(top,  rgba(85,85,85,1) 0%, rgba(68,68,68,1) 25%, rgba(0,0,0,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,85,85,1)), color-stop(25%,rgba(68,68,68,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
     background: linear-gradient(to bottom,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* W3C */
-    border-radius: 6px 0 6px 6px;
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
-    margin: -8px 0 0 20px;
-    min-width: 100px;
-    position: absolute;
 }
 
-.oae-title-clip-right {
-    background: url("../images/clip-title-hook.png") no-repeat 0 0 transparent;
-    background-size: 75%;
-    float: right;
-    height: 14px;
-    left: -11px;
-    margin-right: -11px;
-    width: 12px;
-    top: 50%;
-}
-
-.oae-title-clip h1 {
+.oae-clip h1 {
     color: #fff;
     float: left;
     font-size: 16rem;
     font-weight: 600;
     padding-top: 5px;
     text-shadow: 0 1px 0 #000000;
+    margin: 15px 0 15px 0
 }
 
-.oae-title-clip h1 a {
+.oae-clip h1 a {
     color: #dbdbdb;
     float: left;
     font-size: 16px;
@@ -46,16 +32,16 @@
     text-decoration: none;
 }
 
-.oae-title-clip h1 a:hover {
+.oae-clip h1 a:hover {
     color: #fff;
     text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.oae-title-clip h1 a:active {
+.oae-clip h1 a:active {
     color: #000;
 }
 
-.oae-title-clip .caret {
+.oae-clip .caret {
     margin: 7px 5px 0 10px;
     display: inline-block;
     width: 0;
@@ -68,15 +54,15 @@
     content: "";
 }
 
-.oae-title-clip .caret:hover {
+.oae-clip .caret:hover {
     border-top: 7px solid #fff;
 }
 
-.oae-title-clip .caret:active {
+.oae-clip .caret:active {
     border-top: 7px solid #000;
 }
 
-.oae-title-clip img {
+.oae-clip img {
     background: rgb(226,225,218); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,225,218,0.5)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
@@ -94,7 +80,7 @@
     width: 30px;
 }
 
-.oae-title-clip img:hover {
+.oae-clip img:hover {
     border: 3px solid #0072b4;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -106,169 +92,85 @@
     margin: 12px 0 12px 12px;
 }
 
-.oae-title-clip img:active {
+.oae-clip img:active {
     border-color: #000;
 }
 
-/** Popovers when opening all clips that have a down arrow **/
-
-.oae-popover {
-    position: absolute;
-    z-index: 1010;
-    text-align: left;
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(226,225,218,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(226,225,218,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,225,218,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(226,225,218,1) 100%); /* W3C */
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    white-space: normal;
+.oae-clip-right {
+    background: url("../images/clip-title-hook-right.png") no-repeat 0 0 transparent;
+    background-size: 75%;
+    float: right;
+    height: 14px;
+    left: -11px;
+    margin-right: -11px;
+    width: 12px;
+    top: 50%;
 }
 
-.oae-popover.top {
-  margin-top: -10px;
-}
-
-.oae-popover.right {
-  margin-left: 10px;
-}
-
-.oae-popover.bottom {
-  margin-top: 10px;
-}
-
-.oae-popover.left {
-  margin-left: -10px;
-}
-
-.oae-popover .arrow,
-.oae-popover .arrow:after {
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-
-.oae-popover-title {
-  margin: 0;
-  padding: 8px 14px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 18px;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-}
-
-.oae-popover-content {
-    padding-top: 20px;
-}
-
-.oae-popover-content ul {
-    list-style: none;
-    font-size: 12rem;
-    color: #333;
-    font-weight: 700;
-}
-
-.oae-popover-content li {
+.oae-clip-left {
+    background: url("../images/clip-title-hook-left.png") no-repeat 0 0 transparent;
+    background-size: 75%;
     float: left;
-    margin: 10px;
-} 
-
-.oae-popover-content li a {
-    color: #333;
-    padding: 40px 5px 5px 5px;
-}  
-
-.oae-popover-content li a:hover {
-    color: #777;
-    text-decoration: none;
-} 
-
-.oae-popover-content li a:active {
-    color: #999;
-} 
-
-.oae-popover .arrow {
-  border-width: 11px;
+    height: 14px;
+    left: -11px;
+    margin-left: -8px;
+    width: 12px;
+    top: 50%;
 }
 
-.oae-popover .arrow:after {
-  border-width: 10px;
-  content: "";
+/* Title clips are located on the left of the interface and are used for entities like 
+a user's name and picture, content and preview or a group and it's profile picture */
+
+.oae-title-clip {
+    margin: -8px 0 0 20px;
+    min-width: 100px;
+    position: absolute;
+    border-radius: 6px 0 6px 6px;
 }
 
-.oae-popover.top .arrow {
-  left: 50%;
-  margin-left: -11px;
-  border-bottom-width: 0;
-  border-top-color: #999;
-  border-top-color: rgba(0, 0, 0, 0.25);
-  bottom: -11px;
+/* Action clips are located on the right of the interface and these are the styles that relate to all  */
+
+.oae-action-clip {
+    margin: -8px 0 0 20px;
+    float: right;
+    border-radius: 0 6px 6px 6px;
 }
 
-.oae-popover.top .arrow:after {
-  bottom: 1px;
-  margin-left: -10px;
-  border-bottom-width: 0;
-  border-top-color: #ffffff;
+.oae-action-clip h1 {
+    padding-top: 0;    
 }
 
-.oae-popover.right .arrow {
-  top: 50%;
-  left: -11px;
-  margin-top: -11px;
-  border-left-width: 0;
-  border-right-color: #999;
-  border-right-color: rgba(0, 0, 0, 0.25);
-}
-.oae-popover.right .arrow:after {
-  left: 1px;
-  bottom: -10px;
-  border-left-width: 0;
-  border-right-color: #ffffff;
-}
-.oae-popover.bottom .arrow {
-  left: 50%;
-  margin-left: -11px;
-  border-top-width: 0;
-  border-bottom-color: #999;
-  border-bottom-color: rgba(0, 0, 0, 0.05);
-  top: -11px;
-}
 
-.oae-popover.bottom .arrow:after {
-  top: 1px;
-  margin-left: -10px;
-  border-top-width: 0;
-  border-bottom-color: #ffffff;
-}
 
-.oae-popover.left .arrow {
-  top: 50%;
-  right: -11px;
-  margin-top: -11px;
-  border-right-width: 0;
-  border-left-color: #999;
-  border-left-color: rgba(0, 0, 0, 0.25);
-}
 
-.oae-popover.left .arrow:after {
-  right: 1px;
-  border-right-width: 0;
-  border-left-color: #ffffff;
-  bottom: -10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

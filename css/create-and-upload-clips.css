@@ -1,0 +1,101 @@
+
+/** These are styles that are unique to Upload clip**/
+.oae-upload-clip a {
+    background: url("../images/clip-button-icon-upload.png") no-repeat 10px 10px transparent;
+    padding: 13px 5px 0 40px;
+}
+
+.oae-upload-clip a:hover {
+    background: url("../images/clip-button-icon-upload-hover.png") no-repeat 10px 10px transparent;
+}
+
+.oae-upload-clip a:active {
+    background: url("../images/clip-button-icon-upload-clicked.png") no-repeat 10px 10px transparent;
+}
+
+/** These are styles that are unique to the Create clip**/
+
+.oae-create-clip {
+
+}
+
+/** Dropdown with all the icons that list each type of entity you can create **/
+
+.oae-create-clip-open ul {
+    clear: left;  
+    list-style: none;
+    font-size: 11rem;
+    color: #dbdbdb;
+    font-weight: 600;
+    padding: 37px 5px 15px 15px;
+    margin: 0 0 20px 0;
+    min-width: 220px;
+}
+
+.oae-create-clip-open li {
+    float: left;
+    margin-right: 10px; 
+} 
+
+.oae-create-clip-open li a {
+    color: #dbdbdb;
+    padding: 40px 10px 5px 10px;
+}  
+
+.oae-create-clip-open li a:hover {
+    color: #999;
+    text-decoration: none;
+} 
+
+.oae-create-clip-open li a:active {
+    color: #666;
+} 
+
+.oae-create-clip-open li a:hover {
+  border-radius: 6px;
+}
+
+.oae-create-clip-open .edit-my-details {
+  background: url("../images/icon-user-edit-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .edit-my-details:hover {
+  background: url("../images/icon-user-edit-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .edit-my-details:active {
+  background: url("../images/icon-user-edit-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .messages {
+  background: url("../images/icon-messages-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .messages:hover {
+  background: url("../images/icon-messages-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .messages:active {
+  background: url("../images/icon-messages-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .account-settings {
+  background: url("../images/icon-user-settings-white.png") no-repeat center 5px transparent;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .account-settings:hover {
+  background: url("../images/icon-user-settings-white-hover.png") no-repeat center 5px #000;
+  background-size: 40px 40px;
+}
+
+.oae-create-clip-open .account-settings:active {
+  background: url("../images/icon-user-settings-white-active.png") no-repeat center 5px #222;
+  background-size: 40px 40px;
+}

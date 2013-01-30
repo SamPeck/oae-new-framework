@@ -1,11 +1,8 @@
 
 /** This is the clip that houses the user's name and profile picture **/
 
-/** This is the arrow that provides me with more profile management options **/
+/** These are styles that are unique to my clip **/
 
-.oae-my-clip h1 {
-  margin: 15px 0 15px 0;
-}
 
 .oae-my-clip small {
   display: block;
@@ -24,7 +21,7 @@
     padding-bottom: 3px;
 }
 
-/** Option 2: Popover **/
+/** Option 1: Popover **/
 /** Popover that list the things that are directly related to your profile in OAE **/
 
 #oae-popover-my-clip {
@@ -40,16 +37,6 @@
 #oae-popover-my-clip ul {
   margin: 15px 0 0 0;
 }
-
-/*#oae-popover-my-clip li {
-  
-}
-
-#oae-popover-my-clip li a:hover {
-  background: #fff;
-  border-radius: 3px 3px 3px 3px;
-  box-shadow: 0 0 3px #888888;
-}*/
 
 #oae-popover-my-clip .edit-my-details {
   background: url("../images/icon-user-edit.png") no-repeat center 5px transparent;
@@ -96,12 +83,8 @@
   background-size: 30px 30px;
 }
 
-/** Option 2: Popover **/
-/** Popover that list the things that are directly related to your profile in OAE **/
-
-.oae-my-clip-open h1 {
-  padding-top: 10px;
-}
+/** Option 2: Embedded dropdown **/
+/** Dropdown that list the things that are directly related to your profile in OAE **/
 
 .oae-my-clip-open ul {
     clear: left;  
@@ -116,7 +99,7 @@
 
 .oae-my-clip-open li {
     float: left;
-    margin-right: 10px;
+    margin-right: 10px; 
 } 
 
 .oae-my-clip-open li a {
@@ -181,7 +164,3 @@
   background: url("../images/icon-user-settings-white-active.png") no-repeat center 5px #222;
   background-size: 40px 40px;
 }
-
-
-
-
