@@ -11,57 +11,6 @@
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
-.oae-clip h1 {
-  color: #fff;
-  float: left;
-  font-size: 16rem;
-  font-weight: 600;
-  padding-top: 5px;
-  text-shadow: 0 1px 0 #000000;
-  margin: 15px 5px 15px 0
-}
-
-.oae-clip h1 a {
-  color: #dbdbdb;
-  float: left;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 18px;
-  margin: 0 10px;
-  text-shadow: 0 1px rgba(0, 0, 0, 1);
-  text-decoration: none;
-}
-
-.oae-clip h1 a:hover {
-  color: #fff;
-  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-}
-
-.oae-clip h1 a:active {
-  color: #000;
-}
-
-.oae-clip .caret {
-  margin: 7px 0 0 10px;
-  display: inline-block;
-  width: 0;
-  height: 0;
-  vertical-align: top;
-  border-top: 7px solid #dbdbdb;
-  border-right: 7px solid transparent;
-  border-left: 7px solid transparent;
-  text-shadow: 0 1px 0 #000;
-  content: "";
-}
-
-.oae-clip .caret:hover {
-  border-top: 7px solid #fff;
-}
-
-.oae-clip .caret:active {
-  border-top: 7px solid #000;
-}
-
 .oae-clip img {
   background: rgb(226,225,218); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
@@ -96,6 +45,130 @@
   border-color: #000;
 }
 
+.oae-clip h1 {
+  color: #fff;
+  float: left;
+  font-size: 16rem;
+  font-weight: 600;
+  padding-top: 5px;
+  text-shadow: 0 1px 0 #000000;
+  margin: 15px 5px 15px 0
+}
+
+.oae-clip h1 a {
+  color: #dbdbdb;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0 10px;
+  text-shadow: 0 1px rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.oae-clip h1 a:hover {
+  color: #fff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.oae-clip h1 a:active {
+  color: #000;
+}
+
+/* This is the down arrow for title clips that are managed by the user  */
+
+.oae-clip .caret {
+  margin: 7px 0 0 10px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 7px solid #dbdbdb;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  text-shadow: 0 1px 0 #000;
+  content: "";
+}
+
+.oae-clip .caret:hover {
+  border-top: 7px solid #fff;
+}
+
+.oae-clip .caret:active {
+  border-top: 7px solid #000;
+}
+
+/* These are the global styles when a title clip has supporting text, 
+like when a user displays qualifications, or labeling a group, content item or collection  */
+
+.oae-clip small {
+  display: block;
+  color: #999;
+  font-size: 12rem;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.oae-clip#double-line h1 {
+  margin-top: 7px;
+}
+
+.oae-clip#double-line h1 a {
+  margin-left: 10px;
+  padding-bottom: 3px;
+}
+
+/* These are the global styles when a user opens a clip with a down arrow */
+
+.oae-clip-open button {
+  margin: 10px 10px 0 0;
+}
+
+.oae-clip-open ul {
+  clear: left;  
+  list-style: none;
+  font-size: 11rem;
+  color: #dbdbdb;
+  font-weight: 600;
+  min-width: 220px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+}
+
+.oae-clip-open li {
+  float: left;
+  padding: 0 5px 0 5px;
+  margin-bottom: 15px;
+}
+
+.oae-clip-open li a {
+  color: #dbdbdb;
+  float: left;
+  padding: 40px 10px 10px 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #000000;
+}
+
+.oae-clip-open li a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.oae-clip-open li a:active {
+  color: #666;
+}
+
+.oae-clip-open li:hover {
+  background-color: #000; 
+  border-radius: 6px;
+}
+
+.oae-clip-open li:active {
+  background-color: #222; 
+}
+
+/* These are the clip hooks that make the clips look like they are clipped to the page */
+
 .oae-clip-right {
   background: url("../images/clip-title-hook-right.png") no-repeat 0 0 transparent;
   background-size: 75%;
@@ -118,7 +191,7 @@
   top: 50%;
 }
 
-.oae-clip.oae-action-clip.oae-branded-clip {
+.oae-clip.oae-clip-action.oae-clip-branded {
   background: rgb(37,169,223); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(37,169,223,1) 0%, rgba(0,116,167,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37,169,223,1)), color-stop(100%,rgba(0,116,167,1))); /* Chrome,Safari4+ */
@@ -140,7 +213,7 @@
 /* Title clips are located on the left of the interface and are used for entities like 
 a user's name and picture, content and preview or a group and it's profile picture */
 
-.oae-title-clip {
+.oae-clip-title {
   margin: -8px 0 0 20px;
   min-width: 100px;
   position: absolute;
@@ -149,25 +222,21 @@ a user's name and picture, content and preview or a group and it's profile pictu
 
 /* Action clips are located on the right of the interface and these are the styles that relate to all  */
 
-.oae-action-clip {
+.oae-clip-action {
   margin: -8px 0 0 20px;
   float: right;
   border-radius: 0 6px 6px 6px;
 }
 
-.oae-action-clip h1 {
+.oae-clip-action h1 {
   margin: 10px 5px 5px 10px;
-  padding-top: 2px;
-  height: 30px;    
+  padding-top: 2px;  
 }
 
-.oae-action-clip h1 a {
+.oae-clip-action h1 a {
   padding: 0 0 10px 10px;
   margin: 0 10px 0 20px;
 }
-
-.
-
 
 
 

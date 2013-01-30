@@ -1,153 +1,126 @@
 
-/** These are styles that are unique to Upload clip**/
+/** These are styles that are unique to Upload clip **/
 
-.oae-upload-clip h1 {
-  background: url("../images/icon-upload-white.png") no-repeat top left transparent;
+.oae-clip-upload h1 {
+  background: url("../images/icon-upload-clip.png") no-repeat top left transparent;
   background-size: 25px 25px;  
 }
 
-.oae-upload-clip h1:hover {
-  background: url("../images/icon-upload-white-hover.png") no-repeat top left transparent;
+.oae-clip-upload h1:hover {
+  background: url("../images/icon-upload-clip-hover.png") no-repeat top left transparent;
   background-size: 25px 25px;   
 }
 
-.oae-upload-clip h1:active {
-  background: url("../images/icon-upload-white-active.png") no-repeat top left transparent;
+.oae-clip-upload h1:active {
+  background: url("../images/icon-upload-clip-active.png") no-repeat top left transparent;
   background-size: 25px 25px;  
 }
 
-
-/** These are styles that are unique to the Create clip**/
-
-.oae-create-clip h1,
-.oae-create-clip-open h1 {
-  background: url("../images/icon-create-white.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
-}
-
-.oae-create-clip h1:hover,
-.oae-create-clip-open h1:hover {
-  background: url("../images/icon-create-white-hover.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
-}
-
-.oae-create-clip h1:active,
-.oae-create-clip-open h1:active {
-  background: url("../images/icon-create-white-active.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
-}
-
-
-/** Dropdown with all the icons that list each type of entity you can create **/
-
-.oae-create-clip-open button {
-  margin: 10px 10px 0 0;
-}
-
-.oae-create-clip-open ul {
-  clear: left;  
-  list-style: none;
-  font-size: 11rem;
-  color: #dbdbdb;
-  font-weight: 600;
-  padding: 37px 5px 15px 15px;
-  margin: 0 0 20px 0;
-  min-width: 220px;
-}
-
-.oae-create-clip-open li {
-  float: left;
-  margin-right: 10px; 
-} 
-
-.oae-create-clip-open li a {
-  color: #dbdbdb;
-  padding: 40px 10px 5px 10px;
-}  
-
-.oae-create-clip-open li a:hover {
-  color: #999;
-  text-decoration: none;
-} 
-
-.oae-create-clip-open li a:active {
-  color: #666;
-} 
-
-.oae-create-clip-open li a:hover {
+.oae-clip-open.oae-clip-create-open li:hover {
+  background: #00415d;
   border-radius: 6px;
 }
+.oae-clip-open.oae-clip-create-open li:active {
+  background: #00415d;
+  background: rgb(0,0,0); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(85,85,85,1) 0%, rgba(68,68,68,1) 25%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,85,85,1)), color-stop(25%,rgba(68,68,68,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* W3C */
+}
 
-.oae-create-clip-open .oae-document {
+/** These are styles that are unique to the Create clip **/
+
+.oae-clip-create h1,
+.oae-clip-create-open h1 {
+  background: url("../images/icon-create-clip.png") no-repeat top left transparent;
+  background-size: 25px 25px;   
+}
+
+.oae-clip-create h1:hover,
+.oae-clip-create-open h1:hover {
+  background: url("../images/icon-create-clip-hover.png") no-repeat top left transparent;
+  background-size: 25px 25px;   
+}
+
+.oae-clip-create h1:active,
+.oae-clip-create-open h1:active {
+  background: url("../images/icon-create-clip-active.png") no-repeat top left transparent;
+  background-size: 25px 25px;   
+}
+
+/** Create dropdown with all the icons that list each type of entity you can create **/
+
+.oae-clip-create-open .oae-document {
   background: url("../images/icon-document-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-document:hover {
-  background: url("../images/icon-document-white-hover.png") no-repeat center 5px #000;
+.oae-clip-create-open .oae-document:hover {
+  background: url("../images/icon-document-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-document:active {
-  background: url("../images/icon-document-white-active.png") no-repeat center 5px #222;
+.oae-clip-create-open .oae-document:active {
+  background: url("../images/icon-document-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-group {
+.oae-clip-create-open .oae-group {
   background: url("../images/icon-group-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-group:hover {
-  background: url("../images/icon-group-white-hover.png") no-repeat center 5px #000;
+.oae-clip-create-open .oae-group:hover {
+  background: url("../images/icon-group-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-group:active {
-  background: url("../images/icon-group-white-active.png") no-repeat center 5px #222;
+.oae-clip-create-open .oae-group:active {
+  background: url("../images/icon-group-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-collection {
+.oae-clip-create-open .oae-collection {
   background: url("../images/icon-collection-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-collection:hover {
-  background: url("../images/icon-collection-white-hover.png") no-repeat center 5px #000;
+.oae-clip-create-open .oae-collection:hover {
+  background: url("../images/icon-collection-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-collection:active {
-  background: url("../images/icon-collection-white-active.png") no-repeat center 5px #222;
+.oae-clip-create-open .oae-collection:active {
+  background: url("../images/icon-collection-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
-.oae-create-clip-open .oae-discussion {
+.oae-clip-create-open .oae-discussion {
   background: url("../images/icon-discussion-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-discussion:hover {
-  background: url("../images/icon-discussion-white-hover.png") no-repeat center 5px #000;
+.oae-clip-create-open .oae-discussion:hover {
+  background: url("../images/icon-discussion-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-discussion:active {
-  background: url("../images/icon-discussion-white-active.png") no-repeat center 5px #222;
+.oae-clip-create-open .oae-discussion:active {
+  background: url("../images/icon-discussion-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-bookmark {
+.oae-clip-create-open .oae-bookmark {
   background: url("../images/icon-bookmark-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-bookmark:hover {
-  background: url("../images/icon-bookmark-white-hover.png") no-repeat center 5px #000;
+.oae-clip-create-open .oae-bookmark:hover {
+  background: url("../images/icon-bookmark-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-create-clip-open .oae-bookmark:active {
-  background: url("../images/icon-bookmark-white-active.png") no-repeat center 5px #222;
+.oae-clip-create-open .oae-bookmark:active {
+  background: url("../images/icon-bookmark-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
