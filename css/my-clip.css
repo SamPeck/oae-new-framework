@@ -86,6 +86,10 @@
 /** Option 2: Embedded dropdown **/
 /** Dropdown that list the things that are directly related to your profile in OAE **/
 
+.oae-my-clip-open button {
+  margin: 20px 10px 0 0;
+}
+
 .oae-my-clip-open ul {
     clear: left;  
     list-style: none;
