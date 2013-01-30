@@ -2,17 +2,17 @@
 /** These are styles that are unique to Upload clip **/
 
 .oae-clip-upload h1 {
-  background: url("../images/icon-upload-clip.png") no-repeat top left transparent;
+  background: url("../images/upload-icon-clip.png") no-repeat top left transparent;
   background-size: 25px 25px;  
 }
 
 .oae-clip-upload h1:hover {
-  background: url("../images/icon-upload-clip-hover.png") no-repeat top left transparent;
+  background: url("../images/upload-icon-clip-hover.png") no-repeat top left transparent;
   background-size: 25px 25px;   
 }
 
 .oae-clip-upload h1:active {
-  background: url("../images/icon-upload-clip-active.png") no-repeat top left transparent;
+  background: url("../images/upload-icon-clip-active.png") no-repeat top left transparent;
   background-size: 25px 25px;  
 }
 
@@ -33,19 +33,19 @@
 
 .oae-clip-create h1,
 .oae-clip-create-open h1 {
-  background: url("../images/icon-create-clip.png") no-repeat top left transparent;
+  background: url("../images/add-icon-clip.png") no-repeat top left transparent;
   background-size: 25px 25px;   
 }
 
 .oae-clip-create h1:hover,
 .oae-clip-create-open h1:hover {
-  background: url("../images/icon-create-clip-hover.png") no-repeat top left transparent;
+  background: url("../images/add-icon-clip-hover.png") no-repeat top left transparent;
   background-size: 25px 25px;   
 }
 
 .oae-clip-create h1:active,
 .oae-clip-create-open h1:active {
-  background: url("../images/icon-create-clip-active.png") no-repeat top left transparent;
+  background: url("../images/add-icon-clip-active.png") no-repeat top left transparent;
   background-size: 25px 25px;   
 }
 
