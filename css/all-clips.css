@@ -2,143 +2,171 @@
 /* Primary title of any entity (like user's, group's picture or content preview thumb and name) */
 
 .oae-clip {
-    background: -moz-linear-gradient(top,  rgba(85,85,85,1) 0%, rgba(68,68,68,1) 25%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,85,85,1)), color-stop(25%,rgba(68,68,68,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* W3C */
-    -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+  background: -moz-linear-gradient(top,  rgba(85,85,85,1) 0%, rgba(68,68,68,1) 25%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,85,85,1)), color-stop(25%,rgba(68,68,68,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  rgba(85,85,85,1) 0%,rgba(68,68,68,1) 25%,rgba(0,0,0,1) 100%); /* W3C */
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 .oae-clip h1 {
-    color: #fff;
-    float: left;
-    font-size: 16rem;
-    font-weight: 600;
-    padding-top: 5px;
-    text-shadow: 0 1px 0 #000000;
-    margin: 15px 0 15px 0
+  color: #fff;
+  float: left;
+  font-size: 16rem;
+  font-weight: 600;
+  padding-top: 5px;
+  text-shadow: 0 1px 0 #000000;
+  margin: 15px 5px 15px 0
 }
 
 .oae-clip h1 a {
-    color: #dbdbdb;
-    float: left;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 18px;
-    margin: 0 10px;
-    text-shadow: 0 1px rgba(0, 0, 0, 1);
-    text-decoration: none;
+  color: #dbdbdb;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0 10px;
+  text-shadow: 0 1px rgba(0, 0, 0, 1);
+  text-decoration: none;
 }
 
 .oae-clip h1 a:hover {
-    color: #fff;
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
 .oae-clip h1 a:active {
-    color: #000;
+  color: #000;
 }
 
 .oae-clip .caret {
-    margin: 7px 5px 0 10px;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    vertical-align: top;
-    border-top: 7px solid #dbdbdb;
-    border-right: 7px solid transparent;
-    border-left: 7px solid transparent;
-    text-shadow: 0 1px 0 #000;
-    content: "";
+  margin: 7px 0 0 10px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 7px solid #dbdbdb;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  text-shadow: 0 1px 0 #000;
+  content: "";
 }
 
 .oae-clip .caret:hover {
-    border-top: 7px solid #fff;
+  border-top: 7px solid #fff;
 }
 
 .oae-clip .caret:active {
-    border-top: 7px solid #000;
+  border-top: 7px solid #000;
 }
 
 .oae-clip img {
-    background: rgb(226,225,218); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,225,218,0.5)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* W3C */
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
-    float: left;
-    height: 30px;
-    margin: 15px 3px 15px 15px;
-    width: 30px;
+  background: rgb(226,225,218); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,225,218,0.5)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* W3C */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  float: left;
+  height: 30px;
+  margin: 15px 3px 15px 15px;
+  width: 30px;
 }
 
 .oae-clip img:hover {
-    border: 3px solid #0072b4;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    margin: 12px 0 12px 12px;
+  border: 3px solid #0072b4;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin: 12px 0 12px 12px;
 }
 
 .oae-clip img:active {
-    border-color: #000;
+  border-color: #000;
 }
 
 .oae-clip-right {
-    background: url("../images/clip-title-hook-right.png") no-repeat 0 0 transparent;
-    background-size: 75%;
-    float: right;
-    height: 14px;
-    left: -11px;
-    margin-right: -11px;
-    width: 12px;
-    top: 50%;
+  background: url("../images/clip-title-hook-right.png") no-repeat 0 0 transparent;
+  background-size: 75%;
+  float: right;
+  height: 14px;
+  left: -11px;
+  margin-right: -11px;
+  width: 12px;
+  top: 50%;
 }
 
 .oae-clip-left {
-    background: url("../images/clip-title-hook-left.png") no-repeat 0 0 transparent;
-    background-size: 75%;
-    float: left;
-    height: 14px;
-    left: -11px;
-    margin-left: -8px;
-    width: 12px;
-    top: 50%;
+  background: url("../images/clip-title-hook-left.png") no-repeat 0 0 transparent;
+  background-size: 75%;
+  float: left;
+  height: 14px;
+  left: -11px;
+  margin-left: -8px;
+  width: 12px;
+  top: 50%;
+}
+
+.oae-clip.oae-action-clip.oae-branded-clip {
+  background: rgb(37,169,223); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(37,169,223,1) 0%, rgba(0,116,167,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37,169,223,1)), color-stop(100%,rgba(0,116,167,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(37,169,223,1) 0%,rgba(0,116,167,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  rgba(37,169,223,1) 0%,rgba(0,116,167,1) 100%); /* W3C */
+}
+
+.oae-clip-left-branded {
+  background: url("../images/clip-title-hook-left-branded.png") no-repeat 0 0 transparent;
+  background-size: 75%;
+  float: left;
+  height: 14px;
+  left: -11px;
+  margin-left: -8px;
+  width: 12px;
+  top: 50%;
 }
 
 /* Title clips are located on the left of the interface and are used for entities like 
 a user's name and picture, content and preview or a group and it's profile picture */
 
 .oae-title-clip {
-    margin: -8px 0 0 20px;
-    min-width: 100px;
-    position: absolute;
-    border-radius: 6px 0 6px 6px;
+  margin: -8px 0 0 20px;
+  min-width: 100px;
+  position: absolute;
+  border-radius: 6px 0 6px 6px;
 }
 
 /* Action clips are located on the right of the interface and these are the styles that relate to all  */
 
 .oae-action-clip {
-    margin: -8px 0 0 20px;
-    float: right;
-    border-radius: 0 6px 6px 6px;
+  margin: -8px 0 0 20px;
+  float: right;
+  border-radius: 0 6px 6px 6px;
 }
 
 .oae-action-clip h1 {
-    padding-top: 0;    
+  margin: 10px 5px 5px 10px;
+  padding-top: 2px;
+  height: 30px;    
 }
+
+.oae-action-clip h1 a {
+  padding: 0 0 10px 10px;
+  margin: 0 10px 0 20px;
+}
+
+.
 
 
 
