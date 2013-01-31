@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Create and Upload clips</title>
+    <title>Share and comment clips</title>
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/grid-overrides.css" rel="stylesheet" >
     <link href="css/overrides.css" rel="stylesheet" >
     <link href="css/all-clips.css" rel="stylesheet" >
-    <link href="css/create-and-upload-clips.css" rel="stylesheet" >
+    <link href="css/share-and-comment-clips.css" rel="stylesheet" >
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -17,24 +17,24 @@
     <!-- These are the main actions you can perform if you manage groups or your own profile -->
     <!-- Note the use of Bootstrap grid system (see grid-overrides.css) -->
 
-    <!-- Create and upload clips (see create-and-upload-clips.css and my-clip.css) -->
+	<!-- Share clip positioned on the right (see share-and-comment.css and all-clip.css) -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-				    	<div style="color: #25a9df; height: 300px;">Create and Upload clips</div>
+				    	<div style="color: #25a9df; height: 300px;">Share clip positioned on the right</div>
 					</div>
 				    <div class="span8">
-			            <!-- A trigger that opens up an upload overlay for uploading files to the system -->
-			            <div class="oae-clip oae-action-clip oae-upload-clip">
-					    	<div class="oae-clip-left"></div>
-			            	<h1><a href="#" title="Upload video, files, documents and links">Upload</a></h1>
-			            </div>
-			            <!-- The trigger that opens up a selection of entities you can create -->
-			            <div class="oae-clip oae-action-clip oae-branded-clip oae-create-clip">
+			            <!-- The trigger for a popdown to share this entity with people or groups or save it in your library -->
+			            <div class="oae-clip oae-clip-action oae-clip-branded oae-clip-share">
 					    	<div class="oae-clip-left-branded"></div>
-			            	<h1><a href="#" title="Create anything (Document, To-do, Collection, Group)">Create<span class="caret"></span></a></h1>
+			            	<h1><a href="#" title="Share this with people groups or save to your own library">Share</a></h1>
+			            </div>
+			            <!-- A trigger that jumps the user down to the comments section of the entity profile page -->
+			            <div class="oae-clip oae-clip-action oae-clip-comment">
+					    	<div class="oae-clip-left"></div>
+			            	<h1><a href="#" title="Comment">Comment</a></h1>
 			            </div>
 				    </div>
 			    </div>
@@ -42,39 +42,31 @@
 	    </div>
 	</div>
 
-	<!-- Create open to show the actions you can perform if you are managing your own profile or a manager of a group or content (see create-and-upload-clips.css and my-clip.css) -->
+	<!-- Share clip opened and positioned on the right (see share-and-comment.css and all-clip.css) -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-				    	<div style="color: #25a9df; height: 300px;">Create opened</div>
+				    	<div style="color: #25a9df; height: 300px;">Share clip opened and positioned on the right</div>
 					</div>
 				    <div class="span8">
-			            <!-- A trigger that opens up an upload overlay for uploading files to the system -->
-			            <div class="oae-clip oae-action-clip oae-upload-clip">
-					    	<div class="oae-clip-left"></div>
-			            	<h1><a href="#" title="Upload video, files, documents and links">Upload</a></h1>
-			            </div>
-			            <!-- The trigger that opens up a selection of entities you can create -->
-			            <div class="oae-clip oae-action-clip oae-branded-clip oae-create-clip-open">
+			            <!-- The trigger for a popdown to share this entity with people or groups or save it in your library -->
+			            <div class="oae-clip oae-clip-action oae-clip-branded oae-clip-share-open">
 					    	<div class="oae-clip-left-branded"></div>
-			            	<h1><a href="#" title="Create anything (Document, To-do, Collection, Group)">Create</a></h1>
-			            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
-			            	<ul>
-						    	<li><a href="#" title="Create a collaborative document" class="oae-document">Document</a></li>
-						    	<li><a href="#" title="Create a group" class="oae-group">Group</a></li>
-						    	<li><a href="#" title="Create a collection of documents, files and links" class="oae-collection">Collection</a></li>
-						    	<li><a href="#" title="Create a discussion" class="oae-discussion">Discussion</a></li>
-						    	<li><a href="#" title="Create a bookmark" class="oae-bookmark">Bookmark</a></li>
-						    </ul>
+			            	<h1><a href="#" title="Share this with people groups or save to your own library">Share</a></h1>
+			            	<textarea rows="3" placeholder="Type names of collections, groups or people to share"></textarea>
+			            </div>
+			            <!-- A trigger that jumps the user down to the comments section of the entity profile page -->
+			            <div class="oae-clip oae-clip-action oae-clip-comment">
+					    	<div class="oae-clip-left"></div>
+			            	<h1><a href="#" title="Comment">Comment</a></h1>
 			            </div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
-
 
 </body>
 </html>

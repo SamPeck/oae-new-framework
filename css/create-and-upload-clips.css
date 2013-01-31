@@ -2,18 +2,18 @@
 /** These are styles that are unique to Upload clip **/
 
 .oae-clip-upload h1 {
-  background: url("../images/upload-icon-clip.png") no-repeat top left transparent;
-  background-size: 25px 25px;  
+  background: url("../images/icon-upload-clip.png") no-repeat center left transparent;
+  background-size: 40px 40px;  
 }
 
 .oae-clip-upload h1:hover {
-  background: url("../images/upload-icon-clip-hover.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
+  background: url("../images/icon-upload-clip-hover.png") no-repeat center left transparent;
+  background-size: 40px 40px;  
 }
 
 .oae-clip-upload h1:active {
-  background: url("../images/upload-icon-clip-active.png") no-repeat top left transparent;
-  background-size: 25px 25px;  
+  background: url("../images/icon-upload-clip-active.png") no-repeat center left transparent;
+  background-size: 40px 40px;  
 }
 
 .oae-clip-open.oae-clip-create-open li:hover {
@@ -33,20 +33,20 @@
 
 .oae-clip-create h1,
 .oae-clip-create-open h1 {
-  background: url("../images/add-icon-clip.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
+  background: url("../images/icon-create-clip.png") no-repeat center left transparent;
+  background-size: 40px 40px;  
 }
 
 .oae-clip-create h1:hover,
 .oae-clip-create-open h1:hover {
-  background: url("../images/add-icon-clip-hover.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
+  background: url("../images/icon-create-clip-hover.png") no-repeat center left transparent;
+  background-size: 40px 40px;  
 }
 
 .oae-clip-create h1:active,
 .oae-clip-create-open h1:active {
-  background: url("../images/add-icon-clip-active.png") no-repeat top left transparent;
-  background-size: 25px 25px;   
+  background: url("../images/icon-create-clip-active.png") no-repeat center left transparent;
+  background-size: 40px 40px;   
 }
 
 /** Create dropdown with all the icons that list each type of entity you can create **/

@@ -210,6 +210,7 @@ like when a user displays qualifications, or labeling a group, content item or c
 
 .oae-clip-open li a:active {
   color: #666;
+  text-shadow: 0 1px 0 #000000;
 }
 
 .oae-clip-open li:hover {
@@ -219,6 +220,7 @@ like when a user displays qualifications, or labeling a group, content item or c
 
 .oae-clip-open li:active {
   background-color: #222; 
+  text-shadow: 0 1px 0 #000000;
 }
 
 /* These are the clip hooks that make the clips look like they are clipped to the page */
@@ -283,8 +285,8 @@ a user's name and picture, content and preview or a group and it's profile pictu
 }
 
 .oae-clip-action h1 {
-  margin: 10px 5px 5px 10px;
-  padding-top: 2px;  
+  margin: 5px 0 5px 0;
+  padding: 10px 10px 0 10px; 
 }
 
 .oae-clip-action h1 a {
