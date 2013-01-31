@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My clips</title>
+    <title>Group clip</title>
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -9,129 +9,94 @@
     <link href="css/popover-overrides.css" rel="stylesheet" >
     <link href="css/overrides.css" rel="stylesheet" >
     <link href="css/all-clips.css" rel="stylesheet" >
-    <link href="css/my-clip.css" rel="stylesheet" >
+    <link href="css/group-clips.css" rel="stylesheet" >
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- These are places to activiate tools and actions you can perform in OAE -->
     <!-- Note the use of Bootstrap grid system (see grid-overrides.css) -->
 
-    <!-- My clip in OAE (see all-clips.css and my-clip.css) -->
+	<!-- A collection clip which I manage with a preview of an image in the collection -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-title-clip oae-my-clip">
+					    <div class="oae-clip oae-clip-title" id="double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			            	<h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
+			                <a href="#" title="Water Testing Project Project"><img id="profile-image" src="images/profile-pic-collection.png" alt="Water Testing Project Project"/></a>
+			                <h1><a href="#" title="Water Testing Project Project">Water Testing Project<span class="caret"></span></a><small>Group</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip</div>
+			            <div style="color: #25a9df; height: 300px;">A collection clip which I manage with a preview of an image in the collection</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clip in OAE / my popover -->
-	<div class="container-fluid">
+	<!-- A group clip I manage without a preview picture set -->
+    <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-title-clip oae-my-clip">
+					    <div class="oae-clip oae-clip-title" id="double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
+			                <a href="#" title="Water Testing Project Project"><img id="profile-image" src="images/icon-group-black.png" alt="Water Testing Project Project"/></a>
+			                <h1><a href="#" title="Water Testing Project Project">Water Testing Project<span class="caret"></span></a><small>Group</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip open (Option 1: Popover)</div>
+			            <div style="color: #25a9df; height: 300px;">A group clip I manage without a preview picture set</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clip in OAE / my popover open -->
-	<!-- Option 1: Popover (see popover-overrides.css) -->
-	<div id="oae-popover-my-clip" class="oae-popover bottom">
-		<div class="arrow"></div>
-		<div class="oae-popover-content">
-			<ul>
-		    	<li><a href="#" title="Edit profile" class="edit-my-details">Edit profile</a></li>
-		    	<li><a href="#" title="Messages" class="messages">My messages</a></li>
-		    	<li><a href="#" title="Account settings" class="account-settings">Account settings</a></li>
-		    </ul>
-		</div>
-	</div>
-
-	<!-- My clip in OAE / my dropdown -->
-	<!-- Option 2: Embedded dropdown -->
-	<div class="container-fluid">
+	<!-- A group clip for a group I manage open showing me the available actions to manage the group -->
+    <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-				    	<div class="oae-clip oae-title-clip oae-my-clip-open">
+					    <div class="oae-clip oae-clip-title oae-clip-open oae-clip-open-group" id="double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			            	<h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian</a></h1>
+			                <a href="#" title="Water Testing Project Project"><img id="profile-image" src="images/icon-group-black.png" alt="Water Testing Project Project"/></a>
+			                <h1><a href="#" title="Water Testing Project Project">Water Testing Project</a><small>Project</small></h1>
 			            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
 			            	<ul>
-						    	<li><a href="#" title="Edit profile" class="edit-my-details">Profile</a></li>
-						    	<li><a href="#" title="Messages" class="messages">Messages</a></li>
-						    	<li><a href="#" title="Account settings" class="account-settings">Account</a></li>
+						    	<li><a href="#" title="Set how this collection will be found or search for" class="oae-visibility">Visibility</a></li>
+						    	<li><a href="#" title="Set who this collection is shared with and what each person can do with it" class="oae-edit">Edit details</a></li>
+						    	<li><a href="#" title="Upload video, files, documents and links" class="oae-delete">Delete</a></li>
 						    </ul>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip open (Option 2: Embedded dropdown)</div>
+			            <div style="color: #25a9df; height: 300px;">A group clip for a group I manage open showing me the available actions to manage the group</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clip in OAE with a really long name and a title -->
+	<!-- A group clip which I am a participant of -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-title-clip oae-my-clip" id="double-line">
+					    <div class="oae-clip oae-clip-title" id="double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" title="Hubert's dashboard"><img id="profile-image" src="images/profile-pic-john.png" alt="Hubert Blaine Wolfeschlegelsteinhausenbergerdorff"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">Hubert Blaine Wolfeschlegelsteinhausenbergerdorff<span class="caret"></span></a><small>Professor of Typography, Letterpress, Bookbinding and Linocut</small></h1>
+			                <a href="#" title="Water Testing Project Project"><img id="profile-image" src="images/icon-group-black.png" alt="Biology 101"/></a>
+			                <h1><a href="#" title="Biology 101">Biology 101</a><small>Course</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip with a really long name and a title</div>
-				    </div>
-			    </div>
-		    </div>
-	    </div>
-	</div>
-
-	<!-- My clip in OAE without a profile picture -->
-    <div class="container-fluid">
-	    <div class="row-fluid">
-		    <div class="span12">
-			    <div class="row-fluid">
-				    <div class="span4">
-					    <div class="oae-clip oae-title-clip oae-my-clip">
-					    	<div class="oae-clip-right"></div>
-			                <a href="#" title="John's dashboard"><img id="profile-image" src="images/icon-user.png" alt="John Librarian"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
-			            </div>
-					</div>
-				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip without a profile picture</div>
+			            <div style="color: #25a9df; height: 300px;">A group clip which I am a participant of</div>
 				    </div>
 			    </div>
 		    </div>
