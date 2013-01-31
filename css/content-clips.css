@@ -1,96 +1,96 @@
 
-/** These are styles that are unique to collection clips **/
+/** These are styles that are unique to content clips **/
 
 /** Option 2: Embedded dropdown **/
-/** Dropdown that list of tasks directly related to your role as the manager of this collection **/
+/** Dropdown that list of tasks and features directly related to your role as the manager of this content **/
 
 
-.oae-clip-open-collection .oae-visibility {
+.oae-clip-open-content .oae-visibility {
   background: url("../images/icon-visibility-lock-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-visibility:hover {
+.oae-clip-open-content .oae-visibility:hover {
   background: url("../images/icon-visibility-lock-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-visibility:active {
+.oae-clip-open-content .oae-visibility:active {
   background: url("../images/icon-visibility-lock-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-sharing {
+.oae-clip-open-content .oae-sharing {
   background: url("../images/icon-edit-sharing-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-sharing:hover {
+.oae-clip-open-content .oae-sharing:hover {
   background: url("../images/icon-edit-sharing-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-sharing:active {
+.oae-clip-open-content .oae-sharing:active {
   background: url("../images/icon-edit-sharing-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-upload {
+.oae-clip-open-content .oae-upload {
   background: url("../images/icon-upload-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-upload:hover {
+.oae-clip-open-content .oae-upload:hover {
   background: url("../images/icon-upload-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-upload:active {
+.oae-clip-open-content .oae-upload:active {
   background: url("../images/icon-upload-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-create {
-  background: url("../images/icon-create-white.png") no-repeat center 5px transparent;
+.oae-clip-open-content .oae-revisions {
+  background: url("../images/icon-revisions-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-create:hover {
-  background: url("../images/icon-create-white-hover.png") no-repeat center 5px transparent;
+.oae-clip-open-content .oae-revisions:hover {
+  background: url("../images/icon-revisions-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-create:active {
-  background: url("../images/icon-create-white-active.png") no-repeat center 5px transparent;
+.oae-clip-open-content .oae-revisions:active {
+  background: url("../images/icon-revisions-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-edit {
+.oae-clip-open-content .oae-edit {
   background: url("../images/icon-edit-details-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-edit:hover {
+.oae-clip-open-content .oae-edit:hover {
   background: url("../images/icon-edit-details-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-edit:active {
+.oae-clip-open-content .oae-edit:active {
   background: url("../images/icon-edit-details-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-delete {
+.oae-clip-open-content .oae-delete {
   background: url("../images/icon-delete-white.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-delete:hover {
+.oae-clip-open-content .oae-delete:hover {
   background: url("../images/icon-delete-white-hover.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
 
-.oae-clip-open-collection .oae-delete:active {
+.oae-clip-open-content .oae-delete:active {
   background: url("../images/icon-delete-white-active.png") no-repeat center 5px transparent;
   background-size: 40px 40px;
 }
