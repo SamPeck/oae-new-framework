@@ -14,64 +14,12 @@
 .oae-clip .oae-profile-pic img {
   float: left;
   margin: 15px 3px 15px 15px;
+  width: 35px;
 }
 
 .oae-clip .oae-profile-pic img:hover {
   margin: 12px 0 12px 12px;
-}
-
-.oae-visability-private {
-  background: url("../images/icon-visibility-private-black.png") no-repeat center center #f3a559;
-  background-size: 20px 20px;
-  border-radius: 12px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -1000px;
-  width: 18px;
-  z-index: 10000;
-
-}
-
-.oae-visability-institution {
-  background: url("../images/icon-visibility-institution-black.png") no-repeat center center #72c3d7;
-  background-size: 20px 20px;
-  border-radius: 12px;
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -1000px;
-  width: 18px;
-  z-index: 10000;
-
-}
-
-.oae-visability-public {
-  background: url("../images/icon-visibility-public-black.png") no-repeat center center #81cd87;
-  background-size: 20px 20px;
-  border-radius: 12px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -1000px;
-  width: 18px;
-  z-index: 10000;
-
+  width: 35px;
 }
 
 .oae-clip h1 {

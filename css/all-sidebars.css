@@ -6,42 +6,69 @@
     margin-right: -20px;
 }
 
-#oae-sidebar-open {
-    background: url("../images/right-column-fade.png") no-repeat left top #efefef;
+#oae-sidebar-open,
+#oae-sidebar-closed {
+    /*background: url("../images/right-column-fade.png") no-repeat left -200px #efefef;*/
+    background: rgb(188,188,188); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(153,153,153,1) -50%, rgba(210,212,213,1) 10%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%,rgba(210,212,213,1)), color-stop(3%,rgba(210,212,213,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(153,153,153,1) -50%,rgba(210,212,213,1) 10%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(153,153,153,1) -50%,rgba(210,212,213,1) 10%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(153,153,153,1) -50%,rgba(210,212,213,1) 10%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(153,153,153,1) -50%,rgba(210,212,213,1) 10%); /* W3C */
+    -webkit-box-shadow: 0px 0px 0px 1px #ccc;
+    -moz-box-shadow: 0px 0px 0px 1px #ccc;  
+    box-shadow: 0px 0px 0px 1px #ccc;
 }
 
 /* Buttons located at the top to open and close the sidebar */
 
 #oae-sidebar-open #oae-close-sidebar-button{
-	background: url("../images/icon-close-sidebar.png") no-repeat center center transparent;
-    width: 14px;
-    height: 13px;
+	background: url("../images/icon-sidebar-close.png") no-repeat center center transparent;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
     margin: 20px 0 0 20px;
 }
 
 #oae-sidebar-open #oae-close-sidebar-button:hover {
-	background: url("../images/icon-close-sidebar-hover.png") no-repeat center center transparent;
+	background: url("../images/icon-sidebar-close-hover.png") no-repeat center center transparent;
     cursor: pointer;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
 }
 
 #oae-sidebar-open #oae-close-sidebar-button:active {
-	background: url("../images/icon-close-sidebar-active.png") no-repeat center center transparent;
+	background: url("../images/icon-sidebar-close-active.png") no-repeat center center transparent;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
 }
 
-#oae-sidebar-open #oae-open-sidebar-button {
-	background: url("../images/icon-open-sidebar.png") no-repeat scroll center center transparent;
-    height: 12px;
-    margin: 11px 0 0 7px;
-    width: 17px;
+#oae-sidebar-closed #oae-open-sidebar-button {
+	background: url("../images/icon-sidebar-open.png") no-repeat scroll center center transparent;
+    background-size: 60%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
 }
 
-#oae-sidebar-open #oae-open-sidebar-button:hover {
-	background: url("../images/icon-open-sidebar-hover.png") no-repeat center center transparent;
+#oae-sidebar-closed #oae-open-sidebar-button:hover {
+	background: url("../images/icon-sidebar-open-hover.png") no-repeat center center transparent;
     cursor: pointer;
+    background-size: 60%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
 }
 
-#oae-sidebar-open #oae-open-sidebar-button:active {
-	background: url("../images/icon-open-sidebar-active.png") no-repeat center center transparent;
+#oae-sidebar-closed #oae-open-sidebar-button:active {
+	background: url("../images/icon-sidebar-open-active.png") no-repeat center center transparent;
+    background-size: 60%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
 }
 
 #oae-sidebar-open .oae-sidebar-details {
@@ -52,18 +79,49 @@
 
 .oae-sidebar-details {
     font-size: 12rem;
+    text-shadow: 0 1px #eeedeb ;
+}
+
+.oae-sidebar-details .oae-sidebar-profile-pic img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.oae-sidebar-details .oae-sidebar-profile-pic img:hover {
+    border: none;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px
+}
+
+.oae-sidebar-details .oae-visability-private,
+.oae-sidebar-details .oae-visability-institution,
+.oae-sidebar-details .oae-visability-public {
+    float: left;
+    margin: 45px 0 0 -30px;
+    padding: 0;
+}
+
+.oae-sidebar-details h2 {
+    font-size: 14rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 16rem;
+    margin-bottom: 3px;
 }
 
 .oae-sidebar-details h4 {
     font-size: 14rem;
-    font-weight: 500;
+    font-weight: 300;
     font-style: italic;
     color: #777;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .oae-sidebar-details ul {
-    padding: 3px 0 0 3px;
+    /*padding: 3px 0 0 3px;*/
 }
 
 .oae-sidebar-details ul li {
@@ -76,26 +134,25 @@
     margin: 0 0 3px 0;
 }
 
-.oae-sidebar-details span {
+.oae-sidebar-author {
     font-size: 14rem;
     font-weight: 600;
     display: inline-block;
     padding-left: 10px;
 }
 
-.oae-sidebar-details span:hover {
+.oae-sidebar-author:hover {
     text-decoration: none;
 }
 
-.oae-sidebar-details p {
-    padding: 5px 10px 5px 10px;
-}
-
 .oae-sidebar-well {
-    -webkit-transition: all 0.1s linear;
-    -moz-transition: all 0.1s linear;
-    -o-transition: all 0.1s linear;
-    transition: all 0.1s linear;
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .oae-sidebar-well:hover {
@@ -103,20 +160,66 @@
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
     background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
     background: linear-gradient(to bottom,  #ffffff 0%,#f5f5f5 100%);  
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
     -moz-box-shadow: 0px 0px 3px #888;
     -webkit-box-shadow: 0px 0px 3px #888;
     box-shadow: 0px 0px 3px #888;
 }
 
+.oae-sidebar-links {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    line-height: 14rem;*/
+}
 
+.oae-sidebar-add-pic-button {
+    background: url("../images/icon-sidebar-edit.png") no-repeat center center transparent;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    float: left;
+}
 
+.oae-sidebar-add-pic-button:hover {
+    background: url("../images/icon-sidebar-edit-hover.png") no-repeat center center transparent;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 
+.oae-sidebar-edit-button {
+    background: url("../images/icon-sidebar-edit.png") no-repeat center center transparent;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    clear: left;
+}
 
+.oae-sidebar-edit-button:hover {
+    background: url("../images/icon-sidebar-edit-hover.png") no-repeat center center transparent;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 
+.oae-sidebar-edit-button:hover:after {
+    content: "Edit";
+    float: left;
+    margin: 10px 0 0 35px;
+    padding: 0;
+}
 
+.oae-sidebar-details button {
+    margin-top: 20px;
+    clear: left;
+    display: block;
+}
 
 
 

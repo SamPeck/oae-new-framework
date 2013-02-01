@@ -1,16 +1,18 @@
 
+/* These styles are for all profile pictures */
+
 .oae-profile-pic img {
-	background: rgb(255,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* W3C */
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(219,219,219,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(219,219,219,1) 100%); /* W3C */
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	-webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);
-    -moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);  
-    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);
+	-webkit-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
+    -moz-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);  
+    box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
 	height: 35px;
 	width: 35px;
 	margin: 3px;
@@ -28,4 +30,57 @@
 
 .oae-profile-pic:active img {
 	border-color: #000;
+}
+
+/* These styles are for all visibility indicators */
+
+.oae-visability-private {
+  background: url("../images/icon-visibility-private-black.png") no-repeat center center #f3a559;
+  background-size: 20px 20px;
+  border-radius: 12px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  float: left;
+  height: 18px;
+  margin: 30px 0 0 -10px;
+  text-indent: -100000px;
+  width: 18px;
+  z-index: 10000;
+}
+
+.oae-visability-institution {
+  background: url("../images/icon-visibility-institution-black.png") no-repeat center center #72c3d7;
+  background-size: 20px 20px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  float: left;
+  height: 18px;
+  margin: 30px 0 0 -10px;
+  text-indent: -100000px;
+  width: 18px;
+  z-index: 10000;
+}
+
+.oae-visability-public {
+  background: url("../images/icon-visibility-public-black.png") no-repeat center center #81cd87;
+  background-size: 20px 20px;
+  border-radius: 12px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  float: left;
+  height: 18px;
+  margin: 30px 0 0 -10px;
+  text-indent: -100000px;
+  width: 18px;
+  z-index: 10000;
 }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Group sidebar</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/all-sidebars.css" rel="stylesheet" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all-sidebars.min.js"></script>
+
+    <!-- Note the use of Bootstrap grid system (see grid-oae-overrides.css) -->
+
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span11" id="oae-span11">
+				    	<div style="color: #25a9df;">Content sidebar closed</div>
+					</div>
+				    <div class="span1" id="oae-span1">
+				    	<div class="oae-sidebar" id="oae-sidebar-closed">
+				    		<div id="oae-open-sidebar-button"></div>
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span10" id="oae-span10">
+				    	<div style="color: #25a9df;">Group sidebar open for a new group I just created/manage</div>
+					</div>
+				    <div class="span2" id="oae-span2">
+				    	<!-- The group sidebar reminds the manager to fill in certain details to help the group become more searchable and indexed while ensuring better, more contextual relationships between people in them -->
+				    	<div class="oae-sidebar" id="oae-sidebar-open">
+		                    <div id="oae-close-sidebar-button"></div>
+		                    <div id="oae-open-sidebar-button" style="display: none;"></div>
+		                    <div class="oae-sidebar-details">
+	                        	<a href="#" class="oae-profile-pic oae-sidebar-profile-pic" title="Water Testing Project Project"><img class="oae-profile-pic" src="images/icon-group-black.png" alt="Water Testing Project Project"/></a>
+	                        	<span class="oae-visability-public">Public</span>
+	                        	<a href="#" title="Add picture">Add picture</a>
+		                    	<h2>Water testing research group testing pathogens</h2>
+		                        <a href="#" title="Georgia Tech">Georgia Tech</a>
+		                        <h4>Description</h4>
+		                        <textarea></textarea>
+		                        <h4>Tags</h4>
+		                        <textarea></textarea>
+		                    	<button class="btn disabled">Save</button>
+		                    </div>
+		                    <!-- See JavaScript file all-sidebars.js for interaction -->
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+	<div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span10" id="oae-span10">
+				    	<div style="color: #25a9df;">Group sidebar open for a new group I manage and have filled out the details</div>
+					</div>
+				    <div class="span2" id="oae-span2">
+				    	<!-- The group sidebar reminds the manager to fill in certain details to help the group become more searchable and indexed while ensuring better, more contextual relationships between people in them -->
+				    	<div class="oae-sidebar" id="oae-sidebar-open">
+		                    <div id="oae-close-sidebar-button"></div>
+		                    <div id="oae-open-sidebar-button" style="display: none;"></div>
+		                    <div class="oae-sidebar-details">
+		                        <div class="oae-sidebar-well">
+		                        	<a href="#" class="oae-profile-pic oae-sidebar-profile-pic" title="Water Testing Project Project"><img class="oae-profile-pic" src="images/profile-pic-collection.png" alt="Water Testing Project Project"/></a>
+		                        	<span class="oae-visability-public">Public</span>
+		                        	<div class="oae-sidebar-add-pic-button"></div>
+		                    	</div>
+		                    	<div class="oae-sidebar-well">
+			                    	<h2>Water testing research group testing pathogens</h2>
+			                        <a href="#" title="Georgia Tech">Georgia Tech</a>
+		                        </div>
+		                        <h4>Description</h4>
+		                        <div class="oae-sidebar-well">
+		                        	<div class="oae-sidebar-edit-button"></div>
+		                        	<p>Presenting a fresh examination of women writers and prewar ideology, this book breaks new ground in its investigation of love as a critical aspect of Japanese culture during the early to mid-twentieth century.</p>
+		                    	</div>
+		                    	<button class="btn">Edit details</button>
+		                    </div>
+		                    <!-- See JavaScript file all-sidebars.js for interaction -->
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+	<div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span10" id="oae-span10">
+				    	<div style="color: #25a9df;">Group sidebar open for a group I don't manage but I am a member of</div>
+					</div>
+				    <div class="span2" id="oae-span2">
+				    	<!-- The group sidebar reminds the manager to fill in certain details to help the group become more searchable and indexed while ensuring better, more contextual relationships between people in them -->
+				    	<div class="oae-sidebar" id="oae-sidebar-open">
+		                    <div id="oae-close-sidebar-button"></div>
+		                    <div id="oae-open-sidebar-button" style="display: none;"></div>
+		                    <div class="oae-sidebar-details">
+                        	<a href="#" class="oae-profile-pic oae-sidebar-profile-pic" title="Water Testing Project Project"><img class="oae-profile-pic" src="images/profile-pic-collection.png" alt="Water Testing Project Project"/></a>
+                        	<span class="oae-visability-public">Public</span>
+	                    	<h2>Water testing research group testing pathogens</h2>
+	                        <a href="#" title="Georgia Tech">Georgia Tech</a>
+	                        <h4>Description</h4>
+	                        <p>Presenting a fresh examination of women writers and prewar ideology, this book breaks new ground in its investigation of love as a critical aspect of Japanese culture during the early to mid-twentieth century.</p>
+	                    	<h4>Tags</h4>
+	                        <p><a href="#" title="Tag">Science</a>, <a href="#" title="Tag">Biology</a>, <a href="#" title="Tag">Pathogentics</a></p>
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+</body>
+</html>
