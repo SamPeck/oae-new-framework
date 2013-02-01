@@ -11,38 +11,13 @@
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
-.oae-clip img {
-  background: rgb(226,225,218); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(226,225,218,1) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,225,218,0.5)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom,  rgba(226,225,218,1) 0%,rgba(255,255,255,0.5) 100%); /* W3C */
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+.oae-clip .oae-profile-pic img {
   float: left;
-  height: 30px;
   margin: 15px 3px 15px 15px;
-  width: 30px;
 }
 
-.oae-clip img:hover {
-  border: 3px solid #0072b4;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+.oae-clip .oae-profile-pic img:hover {
   margin: 12px 0 12px 12px;
-}
-
-.oae-clip img:active {
-  border-color: #000;
 }
 
 .oae-visability-private {

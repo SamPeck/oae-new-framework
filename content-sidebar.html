@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Content sidebar</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/all-sidebars.css" rel="stylesheet" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all-sidebars.min.js"></script>
+
+    <!-- Note the use of Bootstrap grid system (see grid-oae-overrides.css) -->
+
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span10" id="oae-span10">
+					</div>
+				    <div class="span2" id="oae-span2">
+				    	<!-- The content sidebar gives users the opportunity to understand more about the entity they are looking while having the option to declutter the page by closing it -->
+				    	<div class="oae-sidebar" id="oae-sidebar-open">
+		                    <div id="oae-close-sidebar-button"></div>
+		                    <div id="oae-open-sidebar-button" style="display: none;"></div>
+		                    <div class="oae-sidebar-details">
+		                        <h4>Shared with</h4>
+		                        <ul>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                            <li><a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a></li>
+		                        </ul>
+		                        <h4>Added by</h4>
+		                        <div class="oae-sidebar-details-author">
+		                        	<a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/><span>John Librarian<span></a>
+		                        </div>
+		                        <h4>Description</h4>
+		                        <p>Presenting a fresh examination of women writers and prewar ideology, this book breaks new ground in its investigation of love as a critical aspect of Japanese culture during the early to mid-twentieth century.</p>
+		                    	<button class="btn">See all</button>
+		                    </div>
+		                    <!-- See JavaScript file all-sidebars.js for interaction -->
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+</body>
+</html>

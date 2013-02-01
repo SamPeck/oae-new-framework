@@ -1,0 +1,31 @@
+
+.oae-profile-pic img {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* W3C */
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);  
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, .5);
+	height: 35px;
+	width: 35px;
+	margin: 3px;
+}
+
+.oae-profile-pic:hover img {
+	border: 3px solid #0074a7;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	z-index: 2000;
+	margin: 0;
+}
+
+.oae-profile-pic:active img {
+	border-color: #000;
+}

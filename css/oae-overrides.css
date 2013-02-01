@@ -25,3 +25,8 @@ h1 {
 a:focus {
     outline: none;
 }
+
+ul,
+ol {
+  margin: 0;
+}

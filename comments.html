@@ -6,14 +6,15 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/grid-overrides.css" rel="stylesheet" >
-    <link href="css/overrides.css" rel="stylesheet" >
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
     <link href="css/comments.css" rel="stylesheet" >
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Note the use of Bootstrap grid system (see grid-overrides.css) -->
+    <!-- Note the use of Bootstrap grid system (see grid-oae-overrides.css) -->
 
     <div class="container-fluid">
 	    <div class="row-fluid">
@@ -23,9 +24,9 @@
 
 					    <!-- Threaded comment and replies -->
 					    <div class="oae-comments">
-					    	<h1>Comments</h1>
+					    	<h4>Comments</h4>
 					    	<div class="media">
-					    		<a class="pull-left" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
+					    		<a class="pull-left oae-profile-pic" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
 					    		<div class="media-body">
 					    			<div class="arrow"></div>
 				    			    <div class="input-append">
@@ -37,14 +38,14 @@
 				    	    <ul class="media-list">
 				    	    	<!-- Original / parent comment -->
 							    <li class="media">
-								    <a class="pull-left" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
+								    <a class="pull-left oae-profile-pic" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
 								    <div class="media-body">
 								    	<div class="arrow"></div>
 								    	<h4 class="media-heading">John Librarian <span>Yesterday</span></h4>
 								    	<p>I think you are on the right track, only you may need to try some alternative keywords.</p>
 								    	<!-- Reply 1 -->
 								    	<div class="media">
-										    <a class="pull-left" href="#"><img class="media-object" src="images/profile-pic-april.png"></a>
+										    <a class="pull-left oae-profile-pic" href="#"><img class="media-object" src="images/profile-pic-april.png"></a>
 										    <div class="media-body">
 										    	<div class="arrow"></div>
 											    <h4 class="media-heading">April Coulter <span>30 mins ago	</span></h4>
@@ -53,7 +54,7 @@
 		 								</div>
 		 								<!-- Reply 2 -->
 		 								<div class="media">
-										    <a class="pull-left" href="#"><img class="media-object" src="images/profile-pic-april.png"></a>
+										    <a class="pull-left oae-profile-pic" href="#"><img class="media-object" src="images/profile-pic-april.png"></a>
 										    <div class="media-body">
 										    	<div class="arrow"></div>
 											    <h4 class="media-heading">April Coulter <span>1 min ago</span></h4>
@@ -61,7 +62,7 @@
 		 									</div>
 		 								<!-- Reply form -->
 		 								<div class="media oae-comments-reply">
-								    		<a class="pull-left" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
+								    		<a class="pull-left oae-profile-pic" href="#"><img class="media-object" src="images/profile-pic-john.png"></a>
 								    		<div class="media-body">
 								    			<div class="arrow"></div>
 							    			    <div class="input-append">
