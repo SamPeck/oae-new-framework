@@ -157,7 +157,6 @@ like when a user displays qualifications, or labeling a group, content item or c
   clear: left;  
   list-style: none;
   font-size: 11rem;
-  color: #dbdbdb;
   font-weight: 600;
   min-width: 220px;
   margin: 0;
@@ -171,7 +170,7 @@ like when a user displays qualifications, or labeling a group, content item or c
 }
 
 .oae-clip-open li a {
-  color: #dbdbdb;
+  color: #999;
   float: left;
   padding: 40px 10px 10px 10px;
   text-decoration: none;
@@ -179,7 +178,7 @@ like when a user displays qualifications, or labeling a group, content item or c
 }
 
 .oae-clip-open li a:hover {
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 

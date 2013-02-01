@@ -31,6 +31,14 @@
 
 /** These are styles that are unique to the Create clip **/
 
+.oae-clip-create-open li a {
+  color: #b7e1f3;
+  float: left;
+  padding: 40px 10px 10px 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #005479;
+}
+
 .oae-clip-create h1,
 .oae-clip-create-open h1 {
   background: url("../images/icon-create-clip.png") no-repeat center left transparent;

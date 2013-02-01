@@ -63,7 +63,7 @@
 }
 
 .oae-sidebar-details ul {
-
+    padding: 3px 0 0 3px;
 }
 
 .oae-sidebar-details ul li {
@@ -87,14 +87,18 @@
     text-decoration: none;
 }
 
-.oae-sidebar-details-author {
+.oae-sidebar-details p {
+    padding: 5px 10px 5px 10px;
+}
+
+.oae-sidebar-well {
     -webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     -o-transition: all 0.1s linear;
     transition: all 0.1s linear;
 }
 
-.oae-sidebar-details-author:hover {
+.oae-sidebar-well:hover {
     background: -moz-linear-gradient(top,  #ffffff 0%, #f5f5f5 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
     background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
