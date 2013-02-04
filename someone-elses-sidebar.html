@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Someone else's sidebar</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/all-sidebars.css" rel="stylesheet" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all-sidebars.min.js"></script>
+
+    <!-- Note the use of Bootstrap grid system (see grid-oae-overrides.css) -->
+
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span11" id="oae-span11">
+				    	<div style="color: #25a9df;">Someone else's sidebar closed</div>
+					</div>
+				    <div class="span1" id="oae-span1">
+				    	<div class="oae-sidebar" id="oae-sidebar-closed">
+				    		<div id="oae-open-sidebar-button"></div>
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+    <div class="container-fluid">
+	    <div class="row-fluid">
+		    <div class="span12" id="oae-span12">
+			    <div class="row-fluid">
+				    <div class="span10" id="oae-span10">
+				    	<div style="color: #25a9df;">Someone else's sidebar open</div>
+					</div>
+				    <div class="span2" id="oae-span2">
+				    	<!-- The group sidebar reminds the manager to fill in certain details to help the group become more searchable and indexed while ensuring better, more contextual relationships between people in them -->
+				    	<div class="oae-sidebar" id="oae-sidebar-open">
+		                    <div id="oae-close-sidebar-button"></div>
+		                    <div id="oae-open-sidebar-button" style="display: none;"></div>
+		                    <div class="oae-sidebar-details">
+	                        	<a href="#" class="oae-profile-pic oae-sidebar-profile-pic" title="Water Testing Project Project"><img class="oae-profile-pic" src="images/profile-pic-april.png" alt="Water Testing Project Project"/></a>
+		                    	<h2><a href="#" title="April Coutler">April Coutler</a></h2>
+		                        <a href="#" title="Georgia Tech">Georgia Tech</a>
+		                        <h4>Description</h4>
+		                        <div class="oae-sidebar-well">
+		                        	<p>Presenting a fresh examination of women writers and prewar ideology, this book breaks new ground in its investigation of love as a critical aspect of Japanese culture during the early to mid-twentieth century.</p>
+		                    	</div>
+		                    	<h4>Tags</h4>
+		                        <p><a href="#" title="Tag">Science</a>, <a href="#" title="Tag">Biology</a>, <a href="#" title="Tag">Pathogentics</a></p>
+		                    	<button class="btn disabled">Follow</button>
+		                    </div>
+		                    <!-- See JavaScript file all-sidebars.js for interaction -->
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+
+</body>
+</html>
