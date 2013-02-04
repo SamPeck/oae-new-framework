@@ -1,0 +1,35 @@
+
+/** These styles are unique to the size of the icon links for choosing visibility */
+
+.oae-modal-create li {
+    margin: 5px;
+}
+
+.oae-modal-create li a {
+    height: 30px;
+	padding-top: 70px;
+    width: 95px;
+}
+
+/** Various visibility icons **/
+
+.oae-modal-create .oae-modal-create-document {
+	background: url("../images/icon-document-black.png") no-repeat center 2px transparent;
+	background-size: 70%;	
+}
+
+.oae-modal-create .oae-modal-create-bookmark {
+	background: url("../images/icon-bookmark.png") no-repeat center 20px transparent;
+}
+
+.oae-modal-create .oae-modal-create-photo {
+	background: url("../images/icon-photo.png") no-repeat center 20px transparent;
+}
+
+.oae-modal-create .oae-modal-create-video {
+	background: url("../images/icon-video.png") no-repeat center 20px transparent;
+}
+
+.oae-modal-create .oae-modal-create-audio {
+	background: url("../images/icon-audio.png") no-repeat center 20px transparent;
+}
