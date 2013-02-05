@@ -5,7 +5,7 @@
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/grid-overrides.css" rel="stylesheet" >
     <link href="css/popover-overrides.css" rel="stylesheet" >
     <link href="css/oae-overrides.css" rel="stylesheet" >
@@ -28,8 +28,10 @@
 				    <div class="span4">
 					    <div class="oae-clip oae-clip-title">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="John's dashboard"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			            	<h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="John Librarian">John Librarian<span class="caret pull-right"></span></a></h1>
 			            </div>
 					</div>
 				    <div class="span8">
@@ -40,87 +42,57 @@
 	    </div>
 	</div>
 
-	<!-- My clip in OAE / my popover -->
 	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title">
+					    <div class="oae-clip oae-clip-title oae-clip-open">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="John's dashboard"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
-			            </div>
-					</div>
-				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip open (Option 1: Popover)</div>
-				    </div>
-			    </div>
-		    </div>
-	    </div>
-	</div>
-
-	<!-- My clip in OAE / my popover open -->
-	<!-- Option 1: Popover (see popover-oae-overrides.css) -->
-	<div id="oae-popover-my-clip" class="oae-popover bottom">
-		<div class="arrow"></div>
-		<div class="oae-popover-content">
-			<ul>
-		    	<li><a href="#" title="Edit profile" class="edit-my-details">Edit profile</a></li>
-		    	<li><a href="#" title="Messages" class="messages">My messages</a></li>
-		    	<li><a href="#" title="Account settings" class="account-settings">Account settings</a></li>
-		    </ul>
-		</div>
-	</div>
-
-	<!-- My clip in OAE / my dropdown -->
-	<!-- Option 2: Embedded dropdown -->
-	<div class="container-fluid">
-	    <div class="row-fluid">
-		    <div class="span12">
-			    <div class="row-fluid">
-				    <div class="span4">
-				    	<div class="oae-clip oae-clip-title oae-clip-open oae-clip-open-user">
-					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="John's dashboard"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
-			            	<h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian</a></h1>
-			            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="John Librarian">John Librarian</a></h1>
+			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
 			            	<ul>
-						    	<li><a href="#" title="Edit profile" class="oae-edit-my-details">Profile</a></li>
-						    	<li><a href="#" title="Messages" class="oae-messages">Messages</a></li>
-						    	<li><a href="#" title="Account settings" class="oae-account-settings">Account</a></li>
+						    	<li class="pull-left"><a href="#" title="Set how this collection will be found or search for"><i class="icon-user icon-3x"></i> Profile</a></li>
+						    	<li class="pull-left"><a href="#" title="Set who this collection is shared with and what each person can do with it"><i class="icon-envelope-alt icon-3x"></i> Messages</a></li>
+						    	<li class="pull-left"><a href="#" title="Upload video, files, documents and links"><i class="icon-cog icon-3x"></i> Account</a></li>
 						    </ul>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip open (Option 2: Embedded dropdown)</div>
+			            <div style="color: #25a9df; height: 300px;">My clip open showing me what other areas of my account I can visit or edit</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
+
 	<!-- My clip in OAE with a really long name and a title -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title" id="double-line">
+					    <div class="oae-clip oae-clip-title" id="oae-double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="Hubert's dashboard"><img src="images/profile-pic-john.png" alt="Hubert Blaine Wolfeschlegelsteinhausenbergerdorff"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">Hubert Blaine Wolfeschlegelsteinhausenbergerdorff<span class="caret"></span></a><small>Professor of Typography, Letterpress, Bookbinding and Linocut</small></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="John Librarian"><img src="images/profile-pic-john.png" alt="John Librarian"/></a>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="Hubert Blaine Wolfeschlegelsteinhausenbergerdorff">Hubert Blaine Wolfeschlegelsteinhausenbergerdorff<span class="caret pull-right"></span></a><small>Professor of Typography, Letterpress, Bookbinding and Linocut</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip with a really long name and a title</div>
+			            <div style="color: #25a9df; height: 300px;">My clip</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
-	<!-- My clip in OAE without a profile picture -->
+	<!-- My clip in OAE without a profile picture set -->
     <div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
@@ -128,12 +100,14 @@
 				    <div class="span4">
 					    <div class="oae-clip oae-clip-title">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="John's dashboard"><img src="images/icon-user.png" alt="John Librarian"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">John Librarian<span class="caret"></span></a></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="John Librarian"><i class="icon-user"></i></a>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="John Librarian">John Librarian<span class="caret pull-right"></span></a></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">My clip without a profile picture</div>
+			            <div style="color: #25a9df; height: 300px;">My clip without a profile picture set</div>
 				    </div>
 			    </div>
 		    </div>
@@ -141,15 +115,17 @@
 	</div>
 
 	<!-- Someone else's clip -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
 					    <div class="oae-clip oae-clip-title">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="April's dashboard"><img src="images/profile-pic-april.png" alt="April Coulter"/></a>
-			                <h1><a href="#" title="More related to me (My profile, messages, account)">April Coulter</a></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="April Coulter"><img src="images/profile-pic-april.png" alt="April Coulter"/></a>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="April Coulter">April Coulter</a></h1>
 			            </div>
 					</div>
 				    <div class="span8">

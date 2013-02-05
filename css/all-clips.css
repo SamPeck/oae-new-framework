@@ -11,41 +11,28 @@
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
-.oae-clip .oae-profile-pic img {
-  float: left;
-  margin: 15px 3px 15px 15px;
-  width: 35px;
-}
-
-.oae-clip .oae-profile-pic img:hover {
-  margin: 12px 0 12px 12px;
-  width: 35px;
-}
-
 .oae-clip h1 {
   color: #fff;
-  float: left;
   font-size: 16rem;
   font-weight: 600;
   padding-top: 5px;
   text-shadow: 0 1px 0 #000000;
-  margin: 15px 5px 15px 0
+  margin: 0 15px 15px 10px;
+  padding: 0;
 }
 
 .oae-clip h1 a {
   color: #dbdbdb;
-  float: left;
   font-size: 16px;
   font-weight: 600;
   line-height: 18px;
-  margin: 0 10px;
   text-shadow: 0 1px rgba(0, 0, 0, 1);
-  text-decoration: none;
 }
 
 .oae-clip h1 a:hover {
   color: #fff;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 
 .oae-clip h1 a:active {
@@ -55,11 +42,7 @@
 /* This is the down arrow for title clips that are managed by the user  */
 
 .oae-clip .caret {
-  margin: 7px 0 0 10px;
-  display: inline-block;
-  width: 0;
-  height: 0;
-  vertical-align: top;
+  margin: 18px 000 0 10px;
   border-top: 7px solid #dbdbdb;
   border-right: 7px solid transparent;
   border-left: 7px solid transparent;
@@ -79,19 +62,15 @@
 like when a user displays qualifications, or labeling a group, content item or collection  */
 
 .oae-clip small {
-  display: block;
   color: #999;
   font-size: 12rem;
-  margin-left: 10px;
-  padding-top: 5px;
+  margin-left: 5px;
+  display: block;
+  margin-top: -7px;
 }
 
-.oae-clip#double-line h1 {
-  margin-top: 7px;
-}
-
-.oae-clip#double-line h1 a {
-  margin-left: 10px;
+.oae-clip#oae-double-line h1 a {
+  margin-left: 5px;
   padding-bottom: 3px;
 }
 
@@ -101,48 +80,48 @@ like when a user displays qualifications, or labeling a group, content item or c
   margin: 10px 10px 0 0;
 }
 
+.oae-clip-open ul i {
+  width: 100%;
+  text-align: center;
+}
+
 .oae-clip-open ul {
   clear: left;  
-  list-style: none;
   font-size: 11rem;
   font-weight: 600;
+  list-style: none;
   min-width: 220px;
-  margin: 0;
-  padding: 0 15px 0 15px;
+  margin: 5px;
 }
 
 .oae-clip-open li {
-  float: left;
-  padding: 0 5px 0 5px;
-  margin-bottom: 15px;
-}
-
-.oae-clip-open li a {
-  color: #999;
-  float: left;
-  padding: 40px 10px 10px 10px;
+  margin: 0 5px 15px 5px;
+  text-align: center;
   text-decoration: none;
-  text-shadow: 0 1px 0 #000000;
-}
-
-.oae-clip-open li a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-.oae-clip-open li a:active {
-  color: #666;
   text-shadow: 0 1px 0 #000000;
 }
 
 .oae-clip-open li:hover {
-  background-color: #000; 
-  border-radius: 6px;
+  background-color: #000;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
-.oae-clip-open li:active {
-  background-color: #222; 
+.oae-clip-open li a {
+  color: #dbdbdb;
+  display: block;
+  padding: 10px 0 5px 0;
   text-shadow: 0 1px 0 #000000;
+  width: 100%;
+}
+
+.oae-clip-open li a:hover {
+  color: #fff; 
+  border-radius: 6px;
+  text-decoration: none;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 1.0);
 }
 
 /* These are the clip hooks that make the clips look like they are clipped to the page */

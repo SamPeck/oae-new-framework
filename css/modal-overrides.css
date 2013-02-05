@@ -17,7 +17,6 @@
 
 .modal-header  {
 	border-bottom: none; 
-	padding: 10px 20px;
 }
 
 .modal-header h3 {
@@ -31,3 +30,4 @@
   	font-weight: 600;
   	color: #333;
 }
+

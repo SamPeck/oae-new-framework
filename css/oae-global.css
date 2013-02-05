@@ -1,7 +1,15 @@
 
 /* These styles are for all profile pictures */
 
-.oae-profile-pic img {
+.oae-profile-pic {
+	color: #333;
+}
+
+.oae-profile-pic:hover {
+	text-decoration: none;
+}
+
+.oae-profile-pic i {
 	background: rgb(238,238,238); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
@@ -10,22 +18,49 @@
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	-webkit-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
-  -moz-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);  
-  box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
-	height: 35px;
-	width: 35px;
-	margin: 3px;
+	color: #333;
+	height: 29px;
+	width: 25px;
+	margin: 10px 5px 4px 10px;
+	padding: 5px 5px 0 5px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 24rem;
 }
 
-.oae-profile-pic:hover img {
-	border: 3px solid #0088CC;
+.oae-profile-pic i:hover {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	cursor: pointer;
-	z-index: 2000;
-	margin: 0;
+	background: #333;
+	color: #dbdbdb;
+	-webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1.0);
+	-moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0), 1.0; 
+	box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1.0);
+}
+
+.oae-profile-pic img {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
+	-moz-box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);  
+	box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, .35);
+	height: 35px;
+	width: 35px;
+	margin: 10px 5px 4px 10px;
+	padding: 0;
+}
+
+.oae-profile-pic:hover img {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.5);
 }
 
 .oae-profile-pic:active img {
@@ -34,53 +69,42 @@
 
 /* These styles are for all visibility indicators */
 
-.oae-visability-private {
-  background: url("../images/icon-visibility-private-black.png") no-repeat center center #f3a559;
-  background-size: 20px 20px;
+.oae-visibility-icon {
   border-radius: 12px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -100000px;
-  width: 18px;
-  z-index: 10000;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+  font-size: 15rem;
+  color: #333;
+  margin-left: -20px;
+  margin-bottom: 5px;
+  vertical-align: bottom;
 }
 
-.oae-visability-institution {
-  background: url("../images/icon-visibility-institution-black.png") no-repeat center center #72c3d7;
-  background-size: 20px 20px;
-  border-radius: 12px;
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -100000px;
-  width: 18px;
-  z-index: 10000;
+.oae-visibility-icon a:hover {
+  border: none;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
-.oae-visability-public {
-  background: url("../images/icon-visibility-public-black.png") no-repeat center center #81cd87;
-  background-size: 20px 20px;
-  border-radius: 12px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  float: left;
-  height: 18px;
-  margin: 30px 0 0 -10px;
-  text-indent: -100000px;
-  width: 18px;
-  z-index: 10000;
+.oae-private {
+  background-color: #f3a559;
+  text-shadow: 0 1px #f6c697;
+  padding: 2px 5px 1px 5px;
+}
+
+.oae-institution {
+  background-color: #72c3d7;
+  text-shadow: 0 1px #a3dbe9;
+  padding: 1px 4px 1px 4px;
+  font-size: 13rem;
+}
+
+.oae-public {
+  background-color: #81cd87;
+  text-shadow: 0 1px #b8ebbc;
+  padding: 2px 3px 1px 3px;
+
 }

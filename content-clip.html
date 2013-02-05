@@ -5,7 +5,7 @@
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/grid-overrides.css" rel="stylesheet" >
     <link href="css/popover-overrides.css" rel="stylesheet" >
     <link href="css/oae-overrides.css" rel="stylesheet" >
@@ -20,16 +20,18 @@
     <!-- Note the use of Bootstrap grid system (see grid-oae-overrides.css) -->
 
 	<!-- Content clip which I manage which has a preview image -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title" id="double-line">
+					    <div class="oae-clip oae-clip-title" id="oae-double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic oae-sidebar-profile-pic" title="Ecology in water research"><img src="images/profile-pic-pdfpreview.png" alt="Ecology in water research"/></a>
-			                <span class="oae-visability-public">Public</span>
-			                <h1><a href="#" title="Ecology in water research">Ecology in water research<span class="caret"></span></a><small>PDF</small></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="Ecology in water research"><img src="images/profile-pic-pdfpreview.png" alt="Ecology in water research"/></a>
+			                	<i class="oae-visibility-icon oae-public icon-globe icon-4x"></i>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="Ecology in water research">Ecology in water research<span class="caret pull-right"></span></a><small>PDF</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
@@ -41,55 +43,62 @@
 	</div>
 
 	<!-- Content clip which I manage which hasn't a preview image -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title" id="double-line">
+					    <div class="oae-clip oae-clip-title" id="oae-double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="Ecology in water research"><img src="images/icon-pdf-black.png" alt="Ecology in water research"/></a>
-			                <span class="oae-visability-institution">Institution-wide</span>
-			                <h1><a href="#" title="Ecology in water research">Ecology in water research<span class="caret"></span></a><small>PDF</small></h1>
+			                <div class="pull-left">
+			                	<a href="#" class="oae-profile-pic" title="Ecology in water research"><i class="icon-file"></i></a>
+			                	<i class="oae-visibility-icon oae-institution icon-building icon-4x"></i>
+			                </div>
+			                <h1 class="pull-left"><a href="#" title="Ecology in water research">Ecology in water research<span class="caret pull-right"></span></a><small>PDF</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">Content clip which I manage which hasn't a preview image</div>
+			            <div style="color: #25a9df; height: 300px;">Content clip which I manage which has a preview image</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
 
+    
 	<!-- Content clip for a PDF I manage open showing me the available actions to manage the file -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 	    <div class="row-fluid">
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title oae-clip-open oae-clip-open-content" id="double-line">
+					    <div class="oae-clip oae-clip-title oae-clip-open" id="oae-double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="Ecology in water research"><img src="images/profile-pic-pdfpreview.png" alt="Ecology in water research"/></a>
-			                <span class="oae-visability-private">Private</span>
-			                <h1><a href="#" title="Ecology in water research">Ecology in water research</a><small>PDF</small></h1>
-			            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+								<div class="pull-left">
+				                	<a href="#" class="oae-profile-pic" title="Research on water testing"><i class="icon-file"></i></a>
+				                	<i class="oae-visibility-icon oae-private icon-lock icon-4x"></i>
+				                </div>
+				            <h1 class="pull-left"><a href="#" title="Research on water testing">Ecology in water research</a><small>PDF</small></h1>
+				            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
 			            	<ul>
-						    	<li><a href="#" title="Set how this collection will be found or search for" class="oae-visibility">Visibility</a></li>
-						    	<li><a href="#" title="Set who this collection is shared with and what each person can do with it" class="oae-sharing">Edit sharing</a></li>
-						    	<li><a href="#" title="Upload video, files, documents and links" class="oae-upload">New version</a></li>
-						    	<li><a href="#" title="Go back and see or recover work that's been done before" class="oae-revisions">Revisions</a></li>
-						    	<li><a href="#" title="Set who this collection is shared with and what each person can do with it" class="oae-edit">Edit details</a></li>
-						    	<li><a href="#" title="Upload video, files, documents and links" class="oae-delete">Delete</a></li>
+						    	<li class="pull-left"><a href="#" title="Set how this collection will be found or search for"><i class="icon-lock icon-3x"></i> Visibility</a></li>
+						    	<li class="pull-left"><a href="#" title="Set who this collection is shared with and what each person can do with it"><i class="icon-group icon-3x"></i> Edit sharing</a></li>
+						    	<li class="pull-left"><a href="#" title="Upload video, files, documents and links"><i class="icon-upload icon-3x"></i> New version</a></li>
+						    	<li class="pull-left"><a href="#" title="Set how this collection will be found or search for"><i class="icon-undo icon-3x"></i> Revisions</a></li>
+						    	<li class="pull-left"><a href="#" title="Set who this collection is shared with and what each person can do with it"><i class="icon-info-sign icon-3x"></i> Edit info</a></li>
+						    	<li class="pull-left"><a href="#" title="Upload video, files, documents and links"><i class="icon-trash icon-3x"></i> Delete</a></li>
 						    </ul>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">Content clip for a PDF I manage open showing me the available actions to manage the file</div>
+			            <div style="color: #25a9df; height: 300px;">A collection clip for a collection I manage open showing me the available actions to manage the collection</div>
 				    </div>
 			    </div>
 		    </div>
 	    </div>
 	</div>
+
+    
 
 	<!-- Content clip which I have been shared with or found but don't manage -->
     <div class="container-fluid">
@@ -97,15 +106,17 @@
 		    <div class="span12">
 			    <div class="row-fluid">
 				    <div class="span4">
-					    <div class="oae-clip oae-clip-title" id="double-line">
+					    <div class="oae-clip oae-clip-title oae-clip-open" id="oae-double-line">
 					    	<div class="oae-clip-right"></div>
-			                <a href="#" class="oae-profile-pic" title="Testing Sulphur Level in the Lakes of Yosemite"><img src="images/profile-pic-pdfpreview.png" alt="Biology 101"/></a>
-			                <span class="oae-visability-public">Public</span>
-			                <h1><a href="#" title="Biology 101">Testing Sulphur Level in the Lakes of Yosemite</a><small>PDF</small></h1>
+								<div class="pull-left">
+				                	<a href="#" class="oae-profile-pic" title="Research on water testing"><i class="icon-file"></i></a>
+				                	<i class="oae-visibility-icon oae-private icon-lock icon-4x"></i>
+				                </div>
+				            <h1 class="pull-left"><a href="#" title="Research on water testing">Ecology in water research</a><small>PDF</small></h1>
 			            </div>
 					</div>
 				    <div class="span8">
-			            <div style="color: #25a9df; height: 300px;">Content clip which I have been shared with or found but don't manage</div>
+			            <div style="color: #25a9df; height: 300px;">A collection clip for a collection I manage open showing me the available actions to manage the collection</div>
 				    </div>
 			    </div>
 		    </div>
