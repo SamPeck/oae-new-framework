@@ -186,17 +186,34 @@ a user's name and picture, content and preview or a group and it's profile pictu
 }
 
 .oae-clip-action h1 {
-  margin: 5px 0 5px 7px;
-  padding: 10px 10px 0 10px; 
+    margin: 0 10px 0 10px;
 }
 
 .oae-clip-action h1 a {
-  padding: 0 0 10px 10px;
-  margin: 0 10px 0 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+  
 }
 
+.oae-clip-action i {
+  margin: 13px 0 0 0;
+  padding: 0;
+}
 
+.oae-clip-action button {
+  background: none;
+  border: none;
+}
 
+.oae-clip-action .caret {
+  margin: 0;
+  padding: 0;
+}
+
+.oae-action-title {
+  margin-top: 5px;
+}
 
 
 
