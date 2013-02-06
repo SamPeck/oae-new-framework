@@ -30,3 +30,8 @@
   	color: #333;
     overflow-y: hidden;
 }
+
+.modal-footer {
+    border-top: none;
+    box-shadow: none;
+}

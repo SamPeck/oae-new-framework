@@ -5,15 +5,6 @@
 	height: auto;
 }
 
-.oae-modal-delete .modal-body {
-	width: auto;
-	height: auto;
-}
-
-.oae-modal-delete .modal-body {
-	overflow: visible;
-}
-
 .oae-modal-delete .modal-footer {
 	clear: left;
 }
@@ -65,7 +56,8 @@
 }
 
 .oae-delete-multiple-items input {
-	margin: 0 5px 0 0;
+	margin: 3px 5px 0 0;
+	vertical-align: top;
 }
 
 .oae-delete-multiple-items p {

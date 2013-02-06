@@ -4,15 +4,8 @@
 	width: auto;
 }
 
-.oae-modal-upload .modal-body {
-	width: auto;
-	display: block;
-	clear: left;
-	overflow: visible;
-}
-
 .oae-modal-upload .modal-body button {
-	margin-top: 5px;
+	margin-left: 10px;
 }
 
 .oae-modal-upload .modal-footer {
@@ -30,6 +23,9 @@
 	display: block;
 }
 
+.oae-modal-upload .oae-upload-area button {
+	margin: 5px 0 0 0;
+}
 
 
 

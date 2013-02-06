@@ -4,13 +4,15 @@
 	width: 650px;
 }
 
-.oae-modal-edit .modal-body {
+.modal-edit-sharing .modal-body .input-append {
 	overflow: visible;
-	width: auto;
-	max-height: 800px;
 }
 
-.modal-edit-sharing .modal-body .input-append {
+.oae-modal-edit-sharing .oae-modal-well {
+	margin: 0 -2px 0 -1px;
+}
+
+.oae-modal-edit-sharing .modal-body {
 	overflow: visible;
 }
 
@@ -29,6 +31,9 @@
 	padding: 0 10px 3px 10px;
 	display: block;
 	margin: 2px;
+	text-shadow: 0 1px #fff;
+	background: none;
+	box-shadow: none;
 	text-shadow: 0 1px #fff;
 }
 

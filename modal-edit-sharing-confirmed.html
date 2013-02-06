@@ -15,12 +15,17 @@
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[rel='tooltip']").tooltip();
+        });
+    </script>
     
     <!-- Button to trigger modal -->
     <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch edit sharing modal</a>
 
     <!-- Modal confirming user has added people to the list -->
-    <div id="myModal" class="oae-modal-edit-sharing modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="myModal" class="oae-modal oae-modal-edit-sharing modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
             <h3 id="myModalLabel">Edit sharing</h3>
@@ -33,7 +38,7 @@
             <!-- These are the 3 visibility options you can choose when editing content or groups -->
             <textarea class="span4" type="text" placeholder="Enter names here to add"></textarea>
              <button class="btn pull-right" type="button">Select people to add</button>
-             <button class="oae-list-options" title="Show list select and search options"><i class="icon-double-angle-down"></i></button>
+             <button class="oae-list-options" title="Sort, select and search options" rel="tooltip" data-placement="top"><i class="icon-double-angle-down"></i></button>
             <div class="oae-modal-well oae-sharing-list">
                 <ul>
                     <li class="pull-left">
