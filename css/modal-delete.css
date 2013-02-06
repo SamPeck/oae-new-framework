@@ -1,0 +1,74 @@
+
+
+.oae-modal-delete {
+	width: auto;
+	height: auto;
+}
+
+.oae-modal-delete .modal-body {
+	width: auto;
+	height: auto;
+}
+
+.oae-modal-delete .modal-body {
+	overflow: visible;
+}
+
+.oae-modal-delete .modal-footer {
+	clear: left;
+}
+
+.oae-modal-delete .modal-body i {
+	margin: 0;
+}
+
+.oae-modal-delete .oae-delete-item p {
+	padding-right: 100px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.oae-modal-delete .oae-file-name {
+	margin: 5px 10px 0 10px;
+}
+
+.oae-modal-delete p {
+	display: block;
+	clear: left;
+	font-size: 14rem;
+	font-weight: 400;
+	color: #333;
+}
+
+.oae-modal-delete small {
+	margin-left: 5px;
+}
+
+.oae-modal-delete span {
+	font-style: italic;
+	color: #333;
+	margin-left: 5px;
+}
+
+.oae-modal-delete .alert .oae-alert-button {
+	padding: 2px 6px;
+	margin-left: 5px;
+}
+
+.oae-delete-multiple-items {
+	min-width: 95%;
+}
+
+.oae-delete-multiple-items .oae-file-name {
+	clear: left;
+	display: block;
+}
+
+.oae-delete-multiple-items input {
+	margin: 0 5px 0 0;
+}
+
+.oae-delete-multiple-items p {
+	margin: 10px 0 10px 28px;
+	font-style: italic;
+}

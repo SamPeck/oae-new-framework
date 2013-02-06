@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Modal delete</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/all-modals.css" rel="stylesheet" >
+    <link href="css/modal-overrides.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/modal-delete.css" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Button to trigger modal -->
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch delete modal</a>
+     
+    <!-- Modal -->
+    <div id="myModal" class="oae-modal-delete modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+            <h3 id="myModalLabel">Remove or delete?</h3>
+        </div>
+        <div class="modal-body">
+            <div class="oae-modal-well oae-delete-item pull-left">
+                <div class="pull-left">
+                    <i class="icon-file icon-2x pull-left"></i>
+                    <div class="oae-file-name pull-left">Preliminary research <p>is shared with other people, groups and collections</p></div>
+                </div>
+                <div class="pull-left">
+                    <button class="btn btn-medium" title="View the list of people and groups that share this">View share list</button>
+                </div>
+            </div>
+        </div>
+         <div class="modal-footer">
+            <button class="btn btn-link pull-left" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Remove from my library</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Delete forever</button>
+
+        </div>
+    </div>
+
+</body>
+</html>

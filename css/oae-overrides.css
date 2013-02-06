@@ -30,3 +30,32 @@ ul,
 ol {
   margin: 0;
 }
+body, button, input, select, textarea {
+    background-color: #efefef;
+    font-size: 13rem;
+}
+.alert {
+    font-size: 13rem;
+    margin-bottom: 0;
+}
+.alert-success {
+    background: #333;
+    border: none;
+    color: #dbdbdb;
+    text-shadow: 0 1px #000;
+}
+
+
+.alert-success button {
+    color: #fff;
+    text-shadow: 0 1px #000;
+}
+
+.alert-info {
+    color: #0074a7;
+}
+
+.btn {
+    font-size: 12rem;
+    font-weight: 600;
+}
