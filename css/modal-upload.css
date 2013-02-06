@@ -5,22 +5,30 @@
 }
 
 .oae-modal-upload .modal-body {
-	overflow: visible;
 	width: auto;
-}
-
-.oae-modal-upload .modal-body {
+	display: block;
+	clear: left;
 	overflow: visible;
 }
 
 .oae-modal-upload .modal-body button {
-	margin-left: 10px;
+	margin-top: 5px;
 }
 
 .oae-modal-upload .modal-footer {
 	clear: left;
 }
 
+.oae-modal-upload .oae-upload-area {
+	padding: 40px 50px;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.oae-modal-upload .oae-upload-area span {
+	clear: left;
+	display: block;
+}
 
 
 

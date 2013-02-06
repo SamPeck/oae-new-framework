@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Modal upload new version</title>
+    <title>Modal upload</title>
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -17,17 +17,19 @@
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Button to trigger modal -->
-    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch upload new version modal</a>
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch upload</a>
      
     <!-- Modal -->
     <div id="myModal" class="oae-modal-upload modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
-            <h3 id="myModalLabel">Upload new version</h3>
+            <h3 id="myModalLabel">Upload</h3>
         </div>
         <div class="modal-body">
-            <input class="pull-left" type="text" placeholder="Browse for documents and files">
-            <button class="btn pull-left" type="button">Browse</button>
+            <div class="oae-modal-well oae-upload-area span5 pull-left">
+                Drop files to upload <span>or</span>
+                <button class="btn">Browse</button>
+            </div>
         </div>
          <div class="modal-footer">
             <button class="btn btn-link pull-left" data-dismiss="modal" aria-hidden="true">Cancel</button>
