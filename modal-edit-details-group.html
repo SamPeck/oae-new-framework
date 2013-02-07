@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/modal-edit-details.css" >
 </head>
 <body>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Button to trigger modal -->
@@ -32,15 +32,26 @@
                     <input class="span5" type="text" placeholder="Enter a group name">
                     <label>Description</label>
                     <textarea class="span5" rows="3" placeholder="Enter a group description"></textarea>
-                    <label>Tags</label>
-                    <input class="span5" type="text" placeholder="Enter tags and categories"></input>
                 </fieldset>
                 <div class="oae-edit-group-visibility pull-left">
                     <label>Join options</label>
                     <ul class="inline">
-                        <li class="pull-left"><a href="#" title="Private to added members" class="oae-selected"><i class="icon-user icon-2x"></i><span>Only managers can add members</span></a><i class="icon-ok-sign icon-2x oae-icon-selected"></i>For specific collaboration</li>
-                        <li class="pull-left"><a href="#" title="People request to join"><i class="icon-question-sign icon-2x"></i><span>People request to join</span> </a>For moderated collaboration, where you can approve who joins</li>
-                        <li class="pull-left"><a href="#" title="Anyone can choose to join"><i class="icon-star icon-2x"></i><span>Anyone can join</span></a> Open for self-forming collaborating</li>
+                        <li class="pull-left">
+                            <button class="btn oae-selected"><i class="icon-ban-circle icon-2x"></i></button>
+                            <i class="icon-ok-sign icon-2x oae-icon-selected"></i>
+                            <h4>Only managers can add members</h4>
+                            <p>Private collaboration.</p>
+                        </li>
+                        <li class="pull-left">
+                            <button class="btn"><i class="icon-question-sign icon-2x"></i></button>
+                            <h4>People request<br />to join</h4>
+                            <p>Moderated collaboration, you can approve who joins.</p>
+                        </li>
+                        <li class="pull-left">
+                            <button class="btn"><i class="icon-star icon-2x"></i></button>
+                            <h4>Anyone can choose to join</h4>
+                            <p>Open for self-forming collaborating.</p>
+                        </li>
                     </ul>
                 </div>
                 </fieldset>
