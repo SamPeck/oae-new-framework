@@ -1,12 +1,12 @@
 
 
 .oae-modal-uploading {
-	width: 450px;
+	width: auto;
 }
 
 .oae-modal-uploading .modal-body i {
 	margin: 4px 0 0 0;
-	font-size: 13rem;
+	font-size: 14rem;
 	color: #999;
 }
 
@@ -22,6 +22,7 @@
 	margin-top: 2px;
 	margin-bottom: 15px;
 	clear: left;
+	margin-left: 0;
 }
 
 .oae-modal-uploading .progress span {
@@ -31,6 +32,35 @@
 	font-style: italic;
 	font-weight: 400;
 }
+
+.oae-modal-uploading li {
+	padding-top: 5px;
+	margin: -3px 0 3px 0;	
+}
+
+.oae-modal-uploading li a {
+	text-decoration: none;
+	color: #333;	
+}
+
+.oae-modal-uploading .oae-modal-list button {
+	margin-top: 1px;
+	padding: 1px 3px 1px 3px;
+}
+
+.oae-modal-uploading .oae-modal-list button:hover {
+	background: #333;
+	-moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.oae-modal-uploading .oae-modal-visibility button {
+	margin-top: -5px;
+	display: block;
+}
+
+
 
 
 

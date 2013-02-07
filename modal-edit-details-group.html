@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Modal edit group details</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/all-modals.css" rel="stylesheet" >
+    <link href="css/modal-overrides.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/modal-edit-details.css" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Button to trigger modal -->
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch edit group details modal</a>
+     
+    <!-- Modal -->
+    <div id="myModal" class="oae-modal oae-modal-edit-details modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+            <h3 id="myModalLabel">Edit details</h3>
+        </div>
+        <div class="modal-body">
+            <form>
+                <fieldset>
+                    <label>Title</label>
+                    <input class="span5" type="text" placeholder="Enter a group name">
+                    <label>Description</label>
+                    <textarea class="span5" rows="3" placeholder="Enter a group description"></textarea>
+                    <label>Tags</label>
+                    <input class="span5" type="text" placeholder="Enter tags and categories"></input>
+                </fieldset>
+                <div class="oae-edit-group-visibility pull-left">
+                    <label>Join options</label>
+                    <ul class="inline">
+                        <li class="pull-left"><a href="#" title="Private to added members" class="oae-selected"><i class="icon-user icon-2x"></i><span>Only managers can add members</span></a><i class="icon-ok-sign icon-2x oae-icon-selected"></i>For specific collaboration</li>
+                        <li class="pull-left"><a href="#" title="People request to join"><i class="icon-question-sign icon-2x"></i><span>People request to join</span> </a>For moderated collaboration, where you can approve who joins</li>
+                        <li class="pull-left"><a href="#" title="Anyone can choose to join"><i class="icon-star icon-2x"></i><span>Anyone can join</span></a> Open for self-forming collaborating</li>
+                    </ul>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-link pull-left" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Save</button>
+            <button class="oae-drag-modal pull-right" title="Drag window for a larger view"><i class="icon-double-angle-right"></i></button>
+        </div>
+    </div>
+
+</body>
+</html>

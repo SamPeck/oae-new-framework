@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Modal edit details</title>
+    <title>Modal edit content details</title>
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -17,10 +17,10 @@
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Button to trigger modal -->
-    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch edit details modal</a>
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch edit content details modal</a>
      
     <!-- Modal -->
-    <div id="myModal" class="oae-modal oae-modal-uploading modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="myModal" class="oae-modal oae-modal-edit-details modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
             <h3 id="myModalLabel">Edit details</h3>
@@ -29,11 +29,11 @@
             <form>
                 <fieldset>
                 <label>Title</label>
-                <input class="span5" type="text" placeholder="Enter a name for your content">
+                <input class="span5" type="text" placeholder="Enter a name">
                 <label>Description</label>
-                <textarea class="span5" rows="3"></textarea>
+                <textarea class="span5" rows="3" placeholder="Enter a description"></textarea>
                 <label>Tags</label>
-                <textarea class="span5" rows="3"></textarea>
+                <textarea class="span5" rows="3" placeholder="Enter tags and categories"></textarea>
                 <label>Copyright</label>
                 <select>
                     <option>None (All rights reserved)</option>
