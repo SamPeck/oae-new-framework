@@ -1,0 +1,77 @@
+
+.oae-popover {
+	width: auto;
+	background: #333;
+}
+
+.oae-popover.popover.bottom .arrow:after {
+    border-bottom-color: #333;
+}
+
+.oae-popover .popover-title {
+	background: none;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 13rem;
+	margin-left: -5px;
+}
+
+.oae-popover li {
+	list-style: none;
+}
+
+.oae-popover .oae-popover-well {
+	background: #efefef;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 0px 0px 3px #888;
+    -webkit-box-shadow: inset 0px 0px 3px #888;
+    box-shadow: inset 0px 0px 3px #888;
+    color: #555;
+}
+
+.oae-popover .oae-popover-well a {
+	font-weight: 700;
+	color: #000;
+}
+
+.oae-popover .oae-popover-well strong {
+	color: #777;
+	font-style: italic;
+}
+
+.oae-popover .oae-popover-well .oae-profile-pic img {
+	margin: 3px 10px 0 3px;
+	padding: 0;
+}
+
+.oae-popover .oae-popover-well small {
+	font-style: italic;
+	font-weight: 600;
+}
+
+.oae-popover .oae-timeago {
+	display: block;
+	font-size: 11rem;
+}
+
+.oae-popover .oae-popover-footer {
+	height: 20px;
+}
+
+.oae-popover .oae-popover-footer .oae-drag-popover {
+	border: none;
+	background: none;
+	line-height: none;
+	font-size: 20rem;
+	color: #999;
+	margin: 15px 0 -6px 20px;
+	padding: 0;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	cursor: move;
+}
+

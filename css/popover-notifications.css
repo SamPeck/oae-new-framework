@@ -1,0 +1,30 @@
+
+.oae-popover-notifications {
+	width: 350px;
+}
+
+.oae-popover-notifications .oae-popover-well {
+	display: block;
+	padding: 5px;
+	margin: 5px;
+	line-height: 16rem;
+	width: 94%
+}
+
+.oae-popover-notifications .popover-content {
+	padding: 3px;
+}
+
+.oae-notifications-item {
+	width: 62.5%;
+
+}
+
+.oae-notifications-preview {
+	display: block;
+}
+
+.oae-notifications-preview .oae-visibility-icon {
+	padding-left: 1px;
+	padding-right: 1px;
+}

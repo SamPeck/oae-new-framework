@@ -10,41 +10,47 @@
 
 .oae-modal-edit-sharing .oae-modal-well {
 	margin: 0 -2px 0 -1px;
+	clear: left;
 }
 
 .oae-modal-edit-sharing .modal-body {
 	overflow: visible;
 }
 
-.oae-sharing-list {
+.oae-modal-edit-sharing .oae-modal-list {
 	height: 300px;
     overflow: scroll;
 }
 
-.oae-sharing-list .checkbox {
+.oae-modal-edit-sharing .oae-modal-list .checkbox {
 	margin: 15px 0 0 0;
 }
 
-.oae-sharing-list select {
+.oae-modal-edit-sharing .oae-modal-list {
+	height: 300px;
+    overflow: scroll;
+}
+
+.oae-modal-edit-sharing .oae-modal-list select {
 	margin-top: 13px;
 	font-size: 12rem;
 	background: #fff;
 }
 
-.oae-sharing-list .oae-user-listed {
+.oae-modal-edit-sharing .oae-modal-list .oae-user-listed {
 	margin: 10px 0 0 5px;
 	padding-top: 3px;
 }
 
-.oae-sharing-list .oae-user-listed div {
+.oae-modal-edit-sharing .oae-modal-list .oae-user-listed div {
 	line-height: 1;
 }
 
-.oae-sharing-list .oae-user-listed small {
+.oae-modal-edit-sharing .oae-modal-list .oae-user-listed small {
 	font-weight: 400;
 }
 
-.oae-sharing-list li.oae-list-selected {
+.oae-modal-edit-sharing .oae-modal-list li.oae-list-selected {
 	background-color: #333 !important;
 	color: #fff;
 	text-shadow: 0 1px #000;
@@ -52,7 +58,8 @@
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-.oae-sharing-list .oae-user-access {
+
+.oae-modal-edit-sharing .oae-modal-list .oae-user-access {
 	margin: 15px 5px 0 0;
 }
 

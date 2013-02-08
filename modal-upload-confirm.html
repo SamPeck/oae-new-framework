@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Modal upload</title>
+    <title>Modal uploading</title>
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -10,26 +10,51 @@
     <link href="css/oae-global.css" rel="stylesheet" >
     <link href="css/all-modals.css" rel="stylesheet" >
     <link href="css/modal-overrides.css" rel="stylesheet" >
-    <link rel="stylesheet" href="css/modal-upload.css" >
+    <link rel="stylesheet" href="css/modal-uploading.css" >
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[rel='tooltip']").tooltip();
+        });
+    </script>
     
     <!-- Button to trigger modal -->
-    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch upload</a>
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch uploading modal</a>
      
     <!-- Modal -->
-    <div id="myModal" class="oae-modal oae-modal-upload modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="myModal" class="oae-modal oae-modal-uploading modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
             <h3 id="myModalLabel">Upload</h3>
         </div>
-        <div class="modal-body">
-            <div class="oae-modal-well oae-upload-area span5 pull-left">
-                Drop files to upload <span>or</span>
-                <button class="btn">Browse</button>
+        <div class="modal-body oae-modal-well">
+            <div class="oae-modal-list">
+                <ul>
+                    <li class="pull-left">
+                        <i class="icon-file icon-2x pull-left"></i>
+                        <div class="oae-file-name pull-left"><a href="#" title="Click to rename" rel="tooltip" data-placement="right">Preliminary_research.pdf</a></div>
+                        <button class="pull-right"><i class="icon-trash"></i></button>
+                    </li>
+                    <li class="pull-left">
+                        <i class="icon-file icon-2x pull-left"></i>
+                        <div class="oae-file-name pull-left"><a href="#" title="Click to rename" rel="tooltip" data-placement="right">References.html</a></div>
+                        <button class="pull-right"><i class="icon-trash"></i></button>
+                    </li>
+                    <li class="pull-left">
+                        <i class="icon-file icon-2x pull-left"></i>
+                        <div class="oae-file-name pull-left"><a href="#" title="Click to rename" rel="tooltip" data-placement="right">Measurement.doc</a></div>
+                        <button class="pull-right"><i class="icon-trash"></i></button>
+                    </li>
+                </ul>
             </div>
+        </div>
+        <div class="oae-modal-visibility">
+            <i class="oae-visibility-icon oae-institution icon-building icon-4x pull-left"></i>
+            These links will be added to the collection <span>Research collection</span>
+            <button class="btn btn-inverse pull-right" data-dismiss="modal" aria-hidden="true">Change</button>
         </div>
          <div class="modal-footer">
             <button class="btn btn-link pull-left" data-dismiss="modal" aria-hidden="true">Cancel</button>
