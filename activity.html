@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Activity</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/grid-overrides.css" rel="stylesheet" >
+    <link href="css/popover-overrides.css" rel="stylesheet" >
+    <link href="css/oae-overrides.css" rel="stylesheet" >
+    <link href="css/oae-global.css" rel="stylesheet" >
+    <link href="css/activity.css" rel="stylesheet" >
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[rel='tooltip']").tooltip();
+        });
+    </script>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid">
+
+                    <!-- left column(s) -->
+                    <div class="span2"></div>
+
+                    <!-- content column -->
+                    <div class="span5">
+
+                        <!-- activity widget -->
+                        <div class="oae-activity-widget">
+                            <ul aria-live="assertive" class="oae-list">
+
+                                <!-- activity item -->
+                                <li>
+                                    <div class="oae-activity-item-container pull-left">
+                                        <div class="oae-activity-entity-container">
+                                            <a href="#" title="Daina Gardea" class="oae-profile-pic pull-left">
+                                                <img src="images/activity/profile-pic-daina.png" alt="Daina Gardea">
+                                            </a>
+                                            <div class="oae-activity-entity-name pull-left">
+                                                <a href="#" title="Daina Gardea">Daina Gardea</a>
+                                                <span> <strong>commented</strong> on</span> <a href="#" title="SIGIR06Diversification.pdf">SIGIR06Diversification.pdf</a>
+                                                <div class="oae-timeago">23 hours ago</div>
+                                            </div>
+                                            <a href="#" class="caret pull-right" title="Options for activity like this" rel="tooltip" data-placement="top"></a>
+                                            <div class="oae-activity-content-container"> 
+                                                <div class="oae-activity-content-container-inner">
+                                                    <div class="oae-activity-content-title">
+                                                        <i class="oae-visibility-icon oae-public icon-globe icon-4x"></i>
+                                                        <a title="Improving Personalized Web Search" href="#">Improving Personalized Web Search <small class="oae-activity-doctype">PDF</small></a>
+                                                        <a class="" title="Add+Share"></a>
+                                                        <button class="pull-right" title="Share or save it" rel="tooltip" data-placement="bottom"><i class="icon-share icon-2x"></i></button>
+                                                    </div>
+                                                </div>
+                                                <a href="#" title="Improving Personalized Web Search">
+                                                    <img src="images/activity/large-preview-improving.png" alt="Improving Personalized Web Search" class="oae-activity-main-preview">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="oae-activity-comment-container">
+                                            <input type="text" placeholder="Comment">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- activity item -->
+                                <li>
+                                    <div class="oae-activity-item-container pull-left">
+                                        <div class="oae-activity-entity-container">
+                                            <a href="#" title="Ben Harrison" class="oae-profile-pic pull-left">
+                                                <img src="images/activity/profile-pic-ben.png" alt="Ben Harrison">
+                                            </a>
+                                            <div class="oae-activity-entity-name pull-left">
+                                                <a href="#" title="Ben Harrison">Ben Harrison</a>
+                                                <span> <strong>saved</strong> the file</span> <a href="#" title="">Saturn is the sixth planet from the Sun</a>
+                                                <div class="oae-timeago">yesterday</div>
+                                            </div>
+                                            <a href="#" class="caret pull-right" title="Options for activity like this" rel="tooltip" data-placement="top"></a>
+                                            <div class="oae-activity-content-container"> 
+                                                <div class="oae-activity-content-container-inner">
+                                                    <div class="oae-activity-content-title">
+                                                        <i class="oae-visibility-icon oae-public icon-globe icon-4x"></i>
+                                                        <a title="Saturn is the sixth planet from the Sun" href="#">Saturn is the sixth planet from the Sun <small class="oae-activity-doctype">PDF</small></a>
+                                                        <a class="" title="Add+Share"></a>
+                                                        <button class="pull-right" title="Share or save it" rel="tooltip" data-placement="top"><i class="icon-share icon-2x"></i></button>
+                                                    </div>
+                                                </div>
+                                                <a href="#" title="Saturn is the sixth planet from the Sun">
+                                                    <img src="images/activity/medium-thumb-saturn.png" alt="Saturn is the sixth planet from the Sun" class="oae-activity-main-preview">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="oae-activity-comment-container">
+                                            <input type="text" placeholder="Comment">
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                            <ul>
+                        </div>
+
+                    </div>
+                    <!-- right column -->
+                    <div class="span5"></div>
+            </div>
+        </div>
+    </div>                
+
+</body>
+</html>

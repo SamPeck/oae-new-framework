@@ -1,0 +1,200 @@
+
+/*** activity widget styles integrated with bootstrap ***/
+
+.activity_widget > h2 {
+    display: none;
+}
+
+.activity-push {
+    visibility: hidden;
+}
+
+.oae-activity-widget li {
+    list-style: none;
+}
+
+.oae-activity-item-container {
+    background-color: #f3f3ee;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 0 #ccc;
+    -moz-box-shadow: 0 0 2px 0 #ccc; 
+    box-shadow: 0 0 2px 0 #ccc;
+    margin-top: 20px;
+    padding: 10px;
+}
+ 
+.oae-activity-item-container .caret {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #666;
+    content: "";
+    margin: 7px 7px 0 0;
+}
+
+/*** activity source ***/
+
+.oae-activity-entity-container {
+    margin: 0;
+    padding: 0;
+}
+
+.oae-activity-entity-container .oae-profile-pic img {
+    margin: 0;
+}
+
+/*** activity summary ***/
+
+.oae-activity-entity-name {
+    color: #555;
+    margin-left: 10px;
+    width: auto;
+}
+
+.oae-activity-entity-name a {
+    font-weight: 600;
+    color: #0074a7;
+}
+
+.oae-activity-entity-name span {
+    color: #777;
+    font-style: italic;
+}
+
+.oae-activity-entity-name small {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.oae-activity-entity-name .oae-timeago {
+    font-size: 11rem;
+}
+
+/*** activity content title bar (maximises vertically to compensate for lots of text) ***/
+
+.oae-activity-content-container {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: 0 0 5px 0 #ccc;
+    -moz-box-shadow: 0 0 5px 0 #ccc; 
+    box-shadow: 0 0 5px 0 #ccc;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    display: inline;
+    float: left;
+    position: relative;
+    z-index: 2000;
+    color: #fff;
+}
+
+.oae-activity-content-container-inner {
+    background-color: #000;
+    border: 0 none;
+    bottom: 0;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.85;
+    padding: 2px 5px 5px 0;
+    position: absolute;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.oae-activity-content-title {
+    max-height: 100%;
+    min-height: 2%;
+    width: 95%;
+    padding: 2%;
+    margin: 0;
+}
+
+.oae-activity-content-title a {
+    text-shadow: 0px 1px 0px #000;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.oae-activity-content-title a:hover {
+    text-shadow: 0px 1px 0px #000;
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.oae-activity-content-title i {
+    margin: 0 10px 0 0;
+    padding: 2px 1px 1px 1px;
+}
+
+.oae-activity-content-title .oae-activity-doctype {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.oae-activity-content-title button {
+    border: none;
+    background: none;
+    color: #ccc;
+    font-size: 9rem;
+    margin: 2px -15px 0 0;
+}
+
+.oae-activity-content-title button:hover {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.oae-activity-content-title button:active {
+    color: #555;
+}
+
+/*** activity preview ***/
+
+.oae-activity-main-preview {
+    width: 100%;
+    z-index: 0;
+}
+
+/*** activity comments ***/
+
+.oae-activity-comment-container input {
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+/*.oae-activity-comment-container .oae-activity-comment-box {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 2px #666;
+    -moz-box-shadow: 0 0 2px #666;
+    -webkit-box-shadow: 0 0 2px #666;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.oae-activity-comment-container .oae-activity-read-more {
+    display: block;
+    text-align: center;
+}
+
+.oae-activity-comment-container textarea {
+    height: 16px;
+    margin-left: 45px;
+    padding: 3px 5px 2px;
+    resize: none;
+    width: 480px;
+}
+
+.oae-activity-comment-container textarea.oae-activity-reply {
+    margin: 0 0 12px 90px;
+    width: 435px;
+}*/
+
