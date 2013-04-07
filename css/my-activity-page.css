@@ -1,0 +1,32 @@
+
+.my-activity-page .oae-sidebar {
+    min-height: 2200px;
+}
+
+.my-activity-page .oae-sidebar-well {
+	margin-top: 15px;
+}
+
+.my-activity-page .oae-sidebar-well h4 {
+	margin-top: 0;
+}
+
+.my-activity-page .oae-sidebar .oae-profile-pic {
+	margin-left: 0;
+}
+
+.my-activity-page .oae-sidebar-edit {
+	border: none;
+	background: none;
+	margin: 0;
+	color: #999;
+}
+
+.my-activity-page .oae-sidebar-edit:hover {
+	border-radius: 12px;
+	color: #333;
+}
+
+.my-activity-page .tooltip {
+	text-shadow: 0 1px 0 #333;
+}
